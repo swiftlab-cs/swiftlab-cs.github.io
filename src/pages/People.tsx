@@ -225,7 +225,7 @@ export function People(): ReactElement {
           </div>
 
           <div className="banner-bottom-left">
-            <a href="https://congyingxu.github.io/">
+            <a href="https://congyingxu.github.io/" />
             <div className="portrait">
               <img
                 alt=""
