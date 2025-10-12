@@ -229,7 +229,7 @@ export function People(): ReactElement {
             <div className="portrait">
               <img
                 alt=""
-                src="images/congying.jpeg" 
+                src="images/congying.jpeg"
                 className="portrait-round"
               />
             </div>
