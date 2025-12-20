@@ -148,7 +148,7 @@ export function People(): ReactElement {
           {/*  Students  */}
 
           <div className="clearfix"> </div>
-          <h2>Students</h2>          
+          <h2>Students</h2>
 
           <div className="banner-bottom-left">
             <div className="portrait">
@@ -379,18 +379,20 @@ export function People(): ReactElement {
             </p>
           </div>
 
-	  <div className="banner-bottom-left">
+          <div className="banner-bottom-left">
             <a href="https://sissel-wu.github.io">
-	      <div className="portrait">
-                <img alt="" src="images/jiarong.png" className="portrait-round" />
-	      </div>
+              <div className="portrait">
+                <img
+                  alt=""
+                  src="images/jiarong.png"
+                  className="portrait-round"
+                />
+              </div>
             </a>
             <h3>
-	      <a href="https://sissel-wu.github.io">Jiarong Wu</a>
-	    </h3>
-            <p>
-	      PhD Graduate at HKUST
-	    </p>
+              <a href="https://sissel-wu.github.io">Jiarong Wu</a>
+            </h3>
+            <p>PhD Graduate at HKUST</p>
           </div>
 
           <div className="banner-bottom-left">
