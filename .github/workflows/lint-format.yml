@@ -47,11 +47,9 @@ jobs:
         # uses: EndBug/add-and-commit@2bdc0a61a03738a1d1bda24d566ad0dbe3083d87
         uses: EndBug/add-and-commit@v7.2.1
         with:
-          repository: ${{ github.event.pull_request.head.repo.full_name }}
-          ref: ${{ github.event.pull_request.head.ref }}
           add: .
           author_name: GitHub Action
           message: changes by lint&format script [skip ci]
           push: origin main
         env:
-          github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
