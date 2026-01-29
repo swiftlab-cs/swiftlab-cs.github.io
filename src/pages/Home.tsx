@@ -25,9 +25,9 @@ export function Home(): ReactElement {
           <div className="group">
             {/* <img src="images/about.jpg" alt=" " /> */}
             <div className="image-scroll">
-              <img className="img-fluid" src="assets/images/2023icse.jpg" alt="alternative" />
-              <img className="img-fluid" src="assets/images/2023ase1.jpg" alt="alternative" />
-              <img className="img-fluid" src="assets/images/2023ase2.jpg" alt="alternative" />
+              <img className="img-fluid" src="images/about1.jpg" alt="滚动合照1" />
+              <img className="img-fluid" src="images/about2.jpg" alt="滚动合照2" />
+              <img className="img-fluid" src="images/about3.jpg" alt="滚动合照3" />
               {/* 添加更多图片  */}
             </div>
           </div>
