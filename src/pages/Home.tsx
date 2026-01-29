@@ -18,6 +18,7 @@ export function Home(): ReactElement {
                       <h2>Latest News</h2>
                   </div> {/* end of col */}
               </div> {/* end of row */}
+              
               <div className="row">
                   <div className="col-lg-12">
                       {/* Card Slider */}
