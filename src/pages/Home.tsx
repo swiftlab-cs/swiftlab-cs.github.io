@@ -191,8 +191,8 @@ export function Home(): ReactElement {
                                   </div> {/* end of swiper-slide */}
                               
                               {/* <!-- Add Arrows --> */}
-                              <div className="swiper-button-next" tabIndex="0" role="button" aria-label="Next slide"></div>
-                              <div className="swiper-button-prev" tabIndex="0" role="button" aria-label="Previous slide"></div>
+                              <div className="swiper-button-next" tabIndex=0 role="button" aria-label="Next slide"></div>
+                              <div className="swiper-button-prev" tabIndex=0 role="button" aria-label="Previous slide"></div>
                               {/* <!-- end of add arrows --> */}
 
                           <span className="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
