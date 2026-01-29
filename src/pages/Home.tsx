@@ -34,7 +34,7 @@ export function Home(): ReactElement {
           <div className="group-text">
             <h3>SWIFT Lab</h3>
             <p>
-              <b>SWIFT</b> (<b>S</b>oft<b>W</b></>are <b>I</b>ntelligence and <b>F</b>oundational
+              <b>SWIFT</b> (<b>S</b>oft<b>W</b>are <b>I</b>ntelligence and <b>F</b>oundational
               <b>S</b>ystems) Lab is XXX. The lab is headed by Assistant Prof.{' '}
               <a href="https://faculty.dukekunshan.edu.cn/zh-hans/faculty_profiles/chenjiacheng">Jiacheng Shen</a>.
               We are interested in research topices regarding XXX.
