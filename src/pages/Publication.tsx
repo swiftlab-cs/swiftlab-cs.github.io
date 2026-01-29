@@ -1,3 +1,4 @@
+// 这个文件是用来获取publication信息的，所以会有axios的请求
 import { ReactElement, useEffect, useState } from 'react';
 
 import { GridLoader } from 'react-spinners';

@@ -6,8 +6,8 @@ export function Home(): ReactElement {
       <div className="banner">
         <div className="container">
           <div className="banner-info">
-            <h2>CASTLE Group | HKUST</h2>
-            <p>Code Analysis, Testing and Learning</p>
+            <h2>SWIFT Group</h2>
+            <p>SoftWare Intelligence and Foundational Systems Lab</p>
           </div>
         </div>
       </div>
@@ -15,52 +15,7 @@ export function Home(): ReactElement {
         <h4>News</h4>
         <ul>
           <li>
-            <b>Jul. 2025: </b> Jiarong Wu have successfully defended his PhD
-            thesis.
-          </li>
-
-          <li>
-            <b>Jan. 2024: </b> Jiajun Hu and Jialun Cao have successfully
-            defended their PhD thesis.
-          </li>
-
-          <li>
-            <b> Nov. 2023: </b> One paper is accepted by IEEE S&P 2024.
-          </li>
-
-          <li>
-            <b>Jul. 2023: </b> Huaxun Huang has successfully defended his PhD
-            thesis. Congratulations!
-          </li>
-
-          <li>
-            <b>Jul. 2023: </b> Three papers are accepted by ESEC/FSE 2023.
-            Congrats to Ying, Ming, Jialun and Xiao.
-          </li>
-
-          <li>
-            <b>Jul. 2023: </b> One paper on software testing using LLM is
-            accepted by ASE'23.
-          </li>
-
-          <li>
-            <b>Jul. 2023: </b> Yongqiang Tian has successfully defended his PhD
-            thesis. Congratulations!
-          </li>
-
-          <li>
-            <b>Jul. 2023: </b> Prof. Shing-Chi Cheung has been promoted to chair
-            professorship.
-          </li>
-
-          <li>
-            <b>Jun. 2023: </b> One paper on program synthesis is accepted by
-            TOSEM.
-          </li>
-
-          <li>
-            <b>Nov. 2022: </b> Prof. Shing-Chi Cheung has been elected to the
-            IEEE Fellow Class 2023.
+            <b>Month. Year: </b> Content.
           </li>
         </ul>
       </div>
@@ -68,18 +23,21 @@ export function Home(): ReactElement {
         <div className="container">
           <h4>About us</h4>
           <div className="group">
-            <img src="images/about.jpg" alt=" " />
+            {/* <img src="images/about.jpg" alt=" " /> */}
+            <div class="image-scroll">
+              <img class="img-fluid" src="assets/images/2023icse.jpg" alt="alternative">
+              <img class="img-fluid" src="assets/images/2023ase1.jpg" alt="alternative">
+              <img class="img-fluid" src="assets/images/2023ase2.jpg" alt="alternative">
+              {/* 添加更多图片  */}
+            </div>
           </div>
           <div className="group-text">
-            <h3>CASTLE Lab at HKUST</h3>
+            <h3>SWIFT Lab</h3>
             <p>
-              <b>CASTLE</b> (<b>C</b>ode <b>A</b>nalysi<b>S</b>, <b>T</b>esting
-              and <b>LE</b>arning) Lab is a part of Software Engineering Group
-              in HKUST. The lab is headed by Prof.{' '}
-              <a href="http://www.cse.ust.hk/faculty/scc/">Shing-Chi Cheung</a>.
-              We are interested in research topices regarding program analysis,
-              testing and debugging, machine learning, crowdsourcing and open
-              source software repository.
+              <b>SWIFT</b> (<b>S</b>oft<b>W</b></>are <b>I</b>ntelligence and <b>F</b>oundational
+              <b>S</b>ystems) Lab is XXX. The lab is headed by Assistant Prof.{' '}
+              <a href="https://faculty.dukekunshan.edu.cn/zh-hans/faculty_profiles/chenjiacheng">Jiacheng Shen</a>.
+              We are interested in research topices regarding XXX.
             </p>
           </div>
           <div className="clearfix"> </div>
