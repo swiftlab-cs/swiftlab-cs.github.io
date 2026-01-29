@@ -116,7 +116,7 @@ export function Home(): ReactElement {
                                               <div className="testimonial-author">May. 26th, 2021</div>
                                               <div className="testimonial-text"><a href="https://conf.researchr.org/profile/icse-2021/michaellyu">Prof.
                                                       Lyu will give a keynote talk "Reliability-Driven AIOps for Cloud
-                                                      Resilience" at ICSE2021.</a> <a href="./assets/files/ICSE2021_keynote_lyu.pdf"><img src="assets/images/file.svg" height="20" weight="20" /></a>
+                                                      Resilience" at ICSE2021.</a> <a href="./assets/files/ICSE2021_keynote_lyu.pdf"></a>
                                               </div>
                                           </div>
                                       </div>
