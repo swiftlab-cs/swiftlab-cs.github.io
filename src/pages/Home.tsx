@@ -96,6 +96,7 @@ export function Home(): ReactElement {
                                           </div>
                                       </div>
                                   </div> {/* end of swiper-slide */}
+
                                   <div className="swiper-slide" data-swiper-autoplay="10000" style="width: 300.5px; margin-right: 20px;" data-swiper-slide-index="5">
                                       <div className="card">
                                           <div className="card-body">
@@ -106,6 +107,7 @@ export function Home(): ReactElement {
                                           </div>
                                       </div>
                                   </div> {/* end of swiper-slide */}
+
                                   <div className="swiper-slide" data-swiper-autoplay="10000" style="width: 300.5px; margin-right: 20px;" data-swiper-slide-index="6">
                                       <div className="card">
                                           <div className="card-body">
@@ -116,6 +118,7 @@ export function Home(): ReactElement {
                                           </div>
                                       </div>
                                   </div> {/* end of swiper-slide */}
+
                                   <div className="swiper-slide" data-swiper-autoplay="10000" style="width: 300.5px; margin-right: 20px;" data-swiper-slide-index="7">
                                       <div className="card">
                                           <div className="card-body">
@@ -136,7 +139,8 @@ export function Home(): ReactElement {
                                               </div>
                                           </div>
                                       </div>
-                                  </div><div className="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-autoplay="10000" style="width: 300.5px; margin-right: 20px;" data-swiper-slide-index="1">
+                              </div>
+                                  <div className="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-autoplay="10000" style="width: 300.5px; margin-right: 20px;" data-swiper-slide-index="1">
                                       <div className="card">
                                           <div className="card-body">
                                               <div className="testimonial-author">Sep. 11th, 2023</div>
@@ -151,10 +155,10 @@ export function Home(): ReactElement {
                               <div className="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide"></div>
                               {/* <!-- end of add arrows --> */}
 
-                          <span className="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div> 
-                          {/* <!-- end of swiper-container --> */}
+                          <span className="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                          </div> 
+                          </div>{/* <!-- end of swiper-container --> */}
                       </div>{/*  <!-- end of slider-container --> */}
-                      {/* <!-- end of card slider --> */}
                   </div>{/*  <!-- end of col --> */}
               </div>{/*  <!-- end of row --> */}
           </div>{/*  <!-- end of container --> */}
