@@ -13,16 +13,37 @@ export function Home(): ReactElement {
         </div>
       </div>
 
-      <div className="container news">
-        <h4>News</h4>
-        <ul>
-          <li>
-            <b>Month. Year: </b> Content.
-          </li>
-        </ul>
-      </div>
+    {/* News连播部分 */}
+    <div className="news-carousel-container">
+        <Carousel interval={3000} controls={true} indicators={true} slide={true}>
+        <Carousel.Item>
+            <div className="news-card">
+            <div className="news-date">Month. Year</div>
+            <div className="news-content">News content 1</div>
+            </div>
+        </Carousel.Item>
+        <Carousel.Item>
+            <div className="news-card">
+            <div className="news-date">Month. Year</div>
+            <div className="news-content">News content 2</div>
+            </div>
+        </Carousel.Item>
+        <Carousel.Item>
+            <div className="news-card">
+            <div className="news-date">Month. Year</div>
+            <div className="news-content">News content 3</div>
+            </div>
+        </Carousel.Item>
+        <Carousel.Item>
+            <div className="news-card">
+            <div className="news-date">Month. Year</div>
+            <div className="news-content">News content 4</div>
+            </div>
+        </Carousel.Item>
+        </Carousel>
+    </div>
 
-      {/* 合照部分 */}
+      {/* 合照和简介部分 */}
       <div id="about" className="team">
         <div className="container">
           <h4>About us</h4>
