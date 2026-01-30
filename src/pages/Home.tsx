@@ -1,5 +1,5 @@
 import { ReactElement } from 'react';
-import { Carousel, CarouselItem, CarouselControl, CarouselIndicators } from 'react-bootstrap';
+import { Carousel } from 'react-bootstrap';
 
 export function Home(): ReactElement {
   return (
