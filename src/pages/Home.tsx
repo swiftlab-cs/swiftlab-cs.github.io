@@ -6,7 +6,7 @@ export function Home(): ReactElement {
       <div className="banner">
         <div className="container">
           <div className="banner-info">
-            <h2>SWIFT Group</h2>
+            <h2 style={{ color: '#baf8ff' }}>SWIFT Group</h2>
             <p>SoftWare Intelligence and Foundational Systems Lab</p>
           </div>
         </div>
@@ -36,13 +36,13 @@ export function Home(): ReactElement {
             </ol>
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                <img src="/img/2016instbg_01.jpg" className="d-block w-100" alt="..." />
+                <img src="images/about.jpg" className="d-block w-100" alt="..." />
                 </div>
                 <div className="carousel-item">
-                <img src="/img/2016instbg_02.jpg" className="d-block w-100" alt="..." />
+                <img src="images/logo.jpg" className="d-block w-100" alt="..." />
                 </div>
                 <div className="carousel-item">
-                <img src="/img/2016instbg_03.jpg" className="d-block w-100" alt="..." />
+                <img src="images/1.jpg" className="d-block w-100" alt="..." />
                 </div>
             </div>
             <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
