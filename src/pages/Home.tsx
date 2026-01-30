@@ -28,7 +28,7 @@ export function Home(): ReactElement {
         {/* React Bootstrap 轮播图 */}
         <Carousel interval={3000} controls={true} indicators={true} style={{width:'80%'}}>
             <Carousel.Item style={{ height: '300px' }}>
-                <div className="card" style={{width: "60%", height:'80%', alignItems:'center', margin:'0 auto'}}>
+                <div className="card" style={{border: 'none', width: "60%", height:'80%', alignItems:'center', margin:'0 auto'}}>
                 <div className="card-body" style={{border: 'none'}}>
                     <h5 className="card-title" style={{alignItems:'center'}}>Card title1</h5>
                     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -37,7 +37,7 @@ export function Home(): ReactElement {
                 </div>
             </Carousel.Item>
             <Carousel.Item style={{ height: '300px' }}>
-                <div className="card" style={{width: "60%", height:'80%', alignItems:'center', margin:'0 auto'}}>
+                <div className="card" style={{border: 'none', width: "60%", height:'80%', alignItems:'center', margin:'0 auto'}}>
                 <div className="card-body" style={{border: 'none'}}>
                     <h5 className="card-title" style={{alignItems:'center'}}>Card title2</h5>
                     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -46,7 +46,7 @@ export function Home(): ReactElement {
                 </div>
             </Carousel.Item>
             <Carousel.Item style={{ height: '300px' }}>
-                <div className="card" style={{width: "60%", height:'80%', alignItems:'center', margin:'0 auto'}}>
+                <div className="card" style={{border: 'none', width: "60%", height:'80%', alignItems:'center', margin:'0 auto'}}>
                 <div className="card-body" style={{border: 'none'}}>
                     <h5 className="card-title" style={{alignItems:'center', margin:'0 auto'}}>Card title3</h5>
                     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
