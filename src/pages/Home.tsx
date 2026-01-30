@@ -1,5 +1,10 @@
 import { ReactElement } from 'react';
 import { Carousel } from 'react-bootstrap';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination'
+import {Pagination} from 'swiper/modules'
+
 
 export function Home(): ReactElement {
   return (
@@ -15,12 +20,31 @@ export function Home(): ReactElement {
 
         {/* News部分 */}
       <div className="container news">
-        <h4>News</h4>
+        {/* <h4>News</h4>
         <ul>
             <li>
                 <b>Month. Year: </b> Content.
             </li>
-        </ul>
+        </ul> */}
+      <Swiper
+        slidesPerView={3}
+        spaceBetween={30}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Pagination]}
+        className="mySwiper"
+      >
+        <SwiperSlide>Slide 1</SwiperSlide>
+        <SwiperSlide>Slide 2</SwiperSlide>
+        <SwiperSlide>Slide 3</SwiperSlide>
+        <SwiperSlide>Slide 4</SwiperSlide>
+        <SwiperSlide>Slide 5</SwiperSlide>
+        <SwiperSlide>Slide 6</SwiperSlide>
+        <SwiperSlide>Slide 7</SwiperSlide>
+        <SwiperSlide>Slide 8</SwiperSlide>
+        <SwiperSlide>Slide 9</SwiperSlide>
+      </Swiper>
       </div>
 
       {/* 合照和简介部分 */}
