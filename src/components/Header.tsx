@@ -16,7 +16,6 @@ export function Header(): ReactElement {
   return (
     <>
       <div className="header">
-        <img src="images/header_bg.jpg" alt=" " height="68px"></img>
         <div className="container">
           <div className="header-part">
             <div className="head-logo">

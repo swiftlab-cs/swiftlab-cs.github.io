@@ -30,8 +30,21 @@ body,html{
     font-size: 14px !important;
 	}
 /*-- header --*/
-.header {
+/* .header {
 	background-color: #9c88ff;
+} */
+.header {
+	background: url('../images/header_bg.jpg') no-repeat center center;
+	background-size: cover;
+	position: relative;
+	height: 88px;
+}
+ 
+.head .container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
 }
 .header-part{
 	/*background: url(../images/logo.png) no-repeat left center;*/
