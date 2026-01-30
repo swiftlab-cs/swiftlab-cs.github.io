@@ -4,7 +4,7 @@ export function News(): ReactElement {
   return (
     <>
       <div className="container news-content">
-        <h3>News</h3>
+        <h4>News</h4>
         <div className="news-photo">
           <img src="images/news3.jpg" alt=" " />
         </div>

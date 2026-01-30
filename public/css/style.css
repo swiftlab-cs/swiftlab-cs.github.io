@@ -107,7 +107,7 @@ body,html{
 .banner{
 	background: url(../images/1.jpg) no-repeat 0px -20px;
 	background-size: cover;
-	min-height: 300px;
+	min-height: 350px;
 	width: 100%;
 	}
 .banner-info{
