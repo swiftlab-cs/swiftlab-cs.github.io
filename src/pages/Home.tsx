@@ -27,11 +27,32 @@ export function Home(): ReactElement {
           <h4>About us</h4>
           <div className="group">
             {/* <img src="images/about.jpg" alt=" " /> */}
-            <div className="image-scroll">
-              <img className="img-fluid" src="images/about.jpg" alt="滚动合照1" />
-              <img className="img-fluid" src="images/1.jpg" alt="滚动合照2" />
-              <img className="img-fluid" src="images/logo.png" alt="滚动合照3" />
-              {/* 添加更多图片  */}
+            {/* bootstrap 轮播图 */}
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="/img/2016instbg_01.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                <img src="/img/2016instbg_02.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                <img src="/img/2016instbg_03.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
             </div>
           </div>
           <div className="group-text">
