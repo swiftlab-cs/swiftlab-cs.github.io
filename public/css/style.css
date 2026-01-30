@@ -1956,9 +1956,10 @@ p.para{
 /* 修改左右控制键颜色 */
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    background-color: #9c88ff;
+	filter: invert(48%) sepia(89%) saturate(2476%) hue-rotate(220deg) brightness(118%) contrast(119%);
+    background-color: transparent;
+    background-size: 100% 100%;
     border-radius: 50%;
-    padding: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
  
