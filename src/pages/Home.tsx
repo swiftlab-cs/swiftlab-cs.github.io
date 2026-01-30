@@ -51,27 +51,30 @@ export function Home(): ReactElement {
             {/* <img src="images/about.jpg" alt=" " /> */}
             {/* React Bootstrap 轮播图 */}
             <Carousel interval={3000} controls={true} indicators={true}>
-              <Carousel.Item style={{ width: '400px', height: '300px' }}>
+              <Carousel.Item style={{ height: '300px' }}>
                 <img
                   className="d-block w-100 h-100"
                   src="images/about.jpg"
                   alt="First slide"
+                  width="400px"
                   style={{ objectFit: 'contain', backgroundColor: '#fbfbfb' }}
                 />
               </Carousel.Item>
-              <Carousel.Item style={{ width: '400px', height: '300px' }}>
+              <Carousel.Item style={{ height: '300px' }}>
                 <img
                   className="d-block w-100 h-100"
                   src="images/1.jpg"
                   alt="First slide"
+                  width="400px"
                   style={{ objectFit: 'contain', backgroundColor: '#fbfbfb' }}
                 />
               </Carousel.Item>
-              <Carousel.Item style={{ width: '400px', height: '300px' }}>
+              <Carousel.Item style={{ height: '300px' }}>
                 <img
                   className="d-block w-100 h-100"
                   src="images/logo.jpg"
                   alt="First slide"
+                  width="400px"
                   style={{ objectFit: 'contain', backgroundColor: '#fbfbfb' }}
                 />
               </Carousel.Item>
