@@ -45,7 +45,7 @@ export function People(): ReactElement {
 
           <div className="banner-bottom-left">
             <div className="portrait">
-              <img alt="" src="images/xvchuan.jpg" className="portrait-round" />
+              <img alt="" src="images/xvchuan.jpeg" className="portrait-round" />
             </div>
             <h3>
               Xvchuan Luo
@@ -104,15 +104,15 @@ export function People(): ReactElement {
               <div className="portrait">
                 <img
                   alt=""
-                  src="images/haoyang.jpg"
+                  src="images/haoyang.jpeg"
                   className="portrait-round"
                 />
               </div>
             </a>
             <h3>
-              <a href="https://haoyang9804.github.io">Haoyang Ma</a>
+              <a href="https://haoyang9804.github.io">占位</a>
             </h3>
-            <p>PhD 2025; AI Infra engineer at an Embodied AI startup</p>
+            <p>占位</p>
           </div>
 
           
