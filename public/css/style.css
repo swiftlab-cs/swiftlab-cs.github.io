@@ -58,9 +58,9 @@ body {
 }
 
 /* Homepage specific style */
-body:has(.banner) .header {
+/* body:has(.banner) .header {
     background-color: transparent;
-}
+} */
 
 .header.scrolled {
 	background-color: #303952;
