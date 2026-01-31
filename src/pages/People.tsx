@@ -5,15 +5,36 @@ export function People(): ReactElement {
     <>
       <div className="banner-bottom">
         <div className="container people">
-          <h2>Researchers and Co-Leaders</h2>
+          <h2>Faculty</h2>
+
           <div className="banner-bottom-left">
-            <a href="http://www.cse.ust.hk/faculty/scc/">
-              <div className="portrait scc"></div>
-            </a>
+            <div className="portrait">
+              <img alt="" src="images/yangfan.jpg" className="portrait-round" />
+            </div>
             <h3>
-              <a href="http://www.cse.ust.hk/faculty/scc/">Shing-Chi Cheung</a>
+              <a href="https://www.y-droid.com/">Yangfan Zhou</a>
             </h3>
-            <p>Chair Professor at HKUST</p>
+            <p>Professor at FDU</p>
+          </div>
+
+          <div className="banner-bottom-left">
+            <div className="portrait">
+              <img alt="" src="images/jiacheng.png" className="portrait-round" />
+            </div>
+            <h3>
+              <a href="https://bernardshen.github.io/">Jiacheng Shen</a>
+            </h3>
+            <p>Assistant Professor at DKU</p>
+          </div>
+
+          <div className="banner-bottom-left">
+            <div className="portrait">
+              <img alt="" src="images/pinjia.jpg" className="portrait-round" />
+            </div>
+            <h3>
+              <a href="https://pinjiahe.github.io/">Pinjia He</a>
+            </h3>
+            <p>Assistant Professor at CUHK</p>
           </div>
 
 
@@ -24,12 +45,52 @@ export function People(): ReactElement {
 
           <div className="banner-bottom-left">
             <div className="portrait">
-              <img alt="" src="images/luliu.png" className="portrait-round" />
+              <img alt="" src="images/xvchuan.jpg" className="portrait-round" />
             </div>
             <h3>
-              <a href="https://liuluuuu.github.io/">Lu Liu</a>
+              Xvchuan Luo
             </h3>
-            <p>PhD Student at HKUST</p>
+            <p>Ph.D. Student at FDU</p>
+          </div>
+
+          <div className="banner-bottom-left">
+            <div className="portrait">
+              <img alt="" src="images/yongsheng.jpg" className="portrait-round" />
+            </div>
+            <h3>
+              Yongsheng Yan
+            </h3>
+            <p>Ph.D. Student at FDU</p>
+          </div>
+    
+          <div className="banner-bottom-left">
+            <div className="portrait">
+              <img alt="" src="images/yvxuan.jpg" className="portrait-round" />
+            </div>
+            <h3>
+              Yvxuan Du
+            </h3>
+            <p>M.Sc. Student at FDU</p>
+          </div>
+
+          <div className="banner-bottom-left">
+            <div className="portrait">
+              <img alt="" src="images/yifan.jpg" className="portrait-round" />
+            </div>
+            <h3>
+              Yifan Xiao
+            </h3>
+            <p>M.Eng. Student at FDU</p>
+          </div>
+
+          <div className="banner-bottom-left">
+            <div className="portrait">
+              <img alt="" src="images/jianrong.jpg" className="portrait-round" />
+            </div>
+            <h3>
+              Jianrong Qiu
+            </h3>
+            <p>M.Sc. Student at FDU</p>
           </div>
 
 
