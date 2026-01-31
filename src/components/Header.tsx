@@ -1,4 +1,4 @@
-import { ReactElement } from 'react';
+import { ReactElement, useEffect } from 'react';
 
 export function Header(): ReactElement {
   // change element with id="nav1" to display block if it is hidden, or hide it if it is displayed
@@ -12,6 +12,30 @@ export function Header(): ReactElement {
       }
     }
   };
+
+
+
+  // 下滑则header变成header.scroll
+  // 顶部则transprant的header
+  useEffect(() => {
+    const handleScroll = () => {
+      const header = document.querySelector('.header');
+      if (header) {
+        if (window.scrollY > 0) {
+          header.classList.add('scrolled');
+        } else {
+          header.classList.remove('scrolled');
+        }
+      }
+    };
+
+    handleScroll();
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
 
   return (
     <>

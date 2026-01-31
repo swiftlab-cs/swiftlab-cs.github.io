@@ -45,13 +45,20 @@ body {
 	flex: 1;
 }
 /*-- header --*/
+/* 在顶部透明，滑动后固定且显色 */
 .header {
-	background-color: #303952;
+	/* background-color: #303952; */
+	background-color: transparent;
 	position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;
 	z-index: 1000;
+	transition: background-color 0.3s ease;
+}
+
+.header.scrolled {
+	background-color: #303952;
 }
 /* .header {
 	background: url('../images/header_bg.jpg') no-repeat center center;
