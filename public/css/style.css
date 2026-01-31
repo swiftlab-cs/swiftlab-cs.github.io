@@ -36,6 +36,12 @@ body {
 	flex-direction: column;
 }
 #root {
+	display: flex;
+	flex-direction: column;
+	min-height: calc(100vh - 88px);
+}
+/* 看APP.tsx，第二个child是main content，第一个是header，第三个是footer */
+#root > :nth-child(2) {
 	flex: 1;
 }
 /*-- header --*/
