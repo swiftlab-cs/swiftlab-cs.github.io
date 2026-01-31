@@ -10,6 +10,9 @@ import {
 import axios from 'axios';
 
 export function Publication(): ReactElement {
+  // useState是一个React Hook，返回条件变量的初始值和set函数
+  // 在未来你可以调用这个set函数来更新变量值，此时页面会重新触发渲染
+  // papers是数据，初始化为空数组（as LiteratureEntry[]类型），setPapers是更新papers的函数
   const [papers, setPapers] = useState([] as LiteratureEntry[]);
   const [loading, setLoading] = useState(true);
 
@@ -59,6 +62,7 @@ export function Publication(): ReactElement {
   return (
     <div className="container">
       <div style={{ minHeight: 200 }}>
+        {/* 原来这个是三元表达式，loading为true时显示加载动画（GridLoader组件），否则显示publication列表 */}
         {loading ? (
           <div
             style={{
@@ -72,6 +76,7 @@ export function Publication(): ReactElement {
             <GridLoader color="#5dc9c9" />
           </div>
         ) : (
+          // 这就是文件列表了，已经被打包为了Literatures组件
           <Literatures
             title={'Selected Publication'}
             description={''}

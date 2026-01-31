@@ -16,16 +16,16 @@ export function Home(): ReactElement {
 
         {/* News部分 */}
       <div className="container news">
-        {/* <h4>News</h4>
+        <h4>News</h4>
         <ul>
             <li>
                 <b>Month. Year: </b> Content.
             </li>
-        </ul> */}
-        <h4>News</h4>
-        <div className="group" style={{float:'none', width:'100%', margin:'0 auto', display:'flex', justifyContent:'center'}}>
-        {/* <img src="images/about.jpg" alt=" " /> */}
+        </ul>
         {/* React Bootstrap 轮播图 */}
+        {/* <h4>News</h4>
+        <div className="group" style={{float:'none', width:'100%', margin:'0 auto', display:'flex', justifyContent:'center'}}>
+
         <Carousel interval={3000} controls={true} indicators={true} style={{width:'80%'}}>
             <Carousel.Item style={{ height: '300px' }}>
                 <div className="card" style={{border: 'none', width: "60%", height:'80%', alignItems:'center', margin:'0 auto'}}>
@@ -33,7 +33,6 @@ export function Home(): ReactElement {
                     <img src="images/1.jpg" alt=" " style={{height:'50%'}} />
                     <h5 className="card-title" style={{paddingTop:'10px'}}>Card title1</h5>
                     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    {/* <a href="#" className="card-link">Card link</a> */}
                 </div>
                 </div>
             </Carousel.Item>
@@ -43,7 +42,6 @@ export function Home(): ReactElement {
                     <img src="images/logo.png" alt=" " style={{height:'50%'}} />
                     <h5 className="card-title" style={{paddingTop:'10px'}}>Card title2</h5>
                     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    {/* <a href="#" className="card-link">Card link</a> */}
                 </div>
                 </div>
             </Carousel.Item>
@@ -52,12 +50,11 @@ export function Home(): ReactElement {
                 <div className="card-body" style={{border: 'none'}}>
                     <h5 className="card-title" style={{paddingTop:'10px'}}>Card title3</h5>
                     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    {/* <a href="#" className="card-link">Card link</a> */}
                 </div>
                 </div>
             </Carousel.Item>
         </Carousel>
-        </div>
+        </div> */}
       </div>
 
       {/* 合照和简介部分 */}
@@ -73,7 +70,7 @@ export function Home(): ReactElement {
                   className="d-block w-100 h-100"
                   src="images/about.jpg"
                   alt="First slide"
-                  width="400px"
+                  // width="400px"
                   style={{ objectFit: 'contain', backgroundColor: '#F4F4F4' }}
                 />
               </Carousel.Item>
@@ -82,7 +79,7 @@ export function Home(): ReactElement {
                   className="d-block w-100 h-100"
                   src="images/1.jpg"
                   alt="Second slide"
-                  width="400px"
+                  // width="400px"
                   style={{ objectFit: 'contain', backgroundColor: '#F4F4F4' }}
                 />
               </Carousel.Item>
@@ -91,7 +88,7 @@ export function Home(): ReactElement {
                   className="d-block w-100 h-100"
                   src="images/logo.png"
                   alt="Third slide"
-                  width="400px"
+                  // width="400px"
                   style={{ objectFit: 'contain', backgroundColor: '#F4F4F4' }}
                 />
               </Carousel.Item>
