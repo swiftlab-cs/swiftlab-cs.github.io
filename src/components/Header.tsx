@@ -1,6 +1,11 @@
 import { ReactElement, useEffect } from 'react';
+import {useLocation} from 'react-router-dom';
 
 export function Header(): ReactElement {
+  // 查看是否在home页面
+  const location = useLocation();
+  const isHome = location.pathname === '/';
+
   // change element with id="nav1" to display block if it is hidden, or hide it if it is displayed
   const toggleMenu = () => {
     const nav1 = document.getElementById('nav1');
@@ -19,6 +24,9 @@ export function Header(): ReactElement {
   // 顶部则transprant的header
   useEffect(() => {
     const handleScroll = () => {
+      if (!isHome) {
+        return;
+      }
       const header = document.querySelector('.header');
       if (header) {
         if (window.scrollY > 0) {
@@ -39,7 +47,7 @@ export function Header(): ReactElement {
 
   return (
     <>
-      <div className="header">
+      <div className={"header" + (isHome ? '' : ' scrolled')}>
         <div className="container">
           <div className="header-part">
             <div className="head-logo">
