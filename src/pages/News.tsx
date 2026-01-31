@@ -19,8 +19,16 @@ export function News(): ReactElement {
             这里是副标题
           </p>
         </div>
+
         <div className="clearfix"> </div>
+
         <ul className="news-list">
+          <li>
+            <b>Sep. 2020: </b> Yongqiang Tian published a{' '}
+            <a href="https://yqtianust.github.io/awesome-ml-testing/">repo</a>{' '}
+            for awesome machine learning materials
+          </li>
+  
           <li>
             <b>Sep. 2020: </b> Yongqiang Tian published a{' '}
             <a href="https://yqtianust.github.io/awesome-ml-testing/">repo</a>{' '}
