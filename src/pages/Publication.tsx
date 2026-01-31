@@ -1,7 +1,6 @@
 // 静态构造publication信息
-import { ReactElement, useState } from 'react';
+import { ReactElement } from 'react';
 
-import { GridLoader } from 'react-spinners';
 import {
   LiteratureEntry,
   Literatures,
