@@ -19,7 +19,11 @@ export function Home(): ReactElement {
         <h4>News</h4>
         <ul>
             <li>
-                <b>Month. Year: </b> Content.
+                <b>Jan. 2026: </b> SWIFT Lab Founded. Congratulations! It is a new cross-institutional laboratory jointly established by Fudan University (FDU), Duke Kunshan University (DKU), and The Chinese University of Hong Kong (CUHK).
+            </li>
+
+            <li>
+                <b>Jan. 2026: </b> <a href="https://openreview.net/forum?id=3h3h3h3h3hhttps://search.bilibili.com/all?vt=24302013&keyword=mygo&from_source=webtop_search&spm_id_from=333.1007&search_source=5">One paper</a> is accepted by ICLR 2026.
             </li>
         </ul>
         {/* React Bootstrap 轮播图 */}

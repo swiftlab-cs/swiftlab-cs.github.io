@@ -10,13 +10,10 @@ export function News(): ReactElement {
         </div>
         <div className="news-photo-text">
           <h5>
-            这是一条置顶的新闻{' '}
-            <a href="https://cse.hkust.edu.hk/News/IEEE_Fellow2023/">
-              这里可以加第三方报道的链接
-            </a>
+            SWIFT Lab Founded!
           </h5>
           <p>
-            这里是副标题
+            We are excited to announce the launch of SWIFT, a new cross-institutional laboratory jointly established by Fudan University (FDU), Duke Kunshan University (DKU), and The Chinese University of Hong Kong (CUHK).
           </p>
         </div>
 
