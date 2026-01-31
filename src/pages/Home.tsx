@@ -8,7 +8,7 @@ export function Home(): ReactElement {
       <div className="banner">
         <div className="container">
           <div className="banner-info">
-            <h2 style={{ color: '#baf8ff' }}>SWIFT Group</h2>
+            <h2 style={{ color: '#baf8ff' }}>SWIFT Lab</h2>
             <p>SoftWare Intelligence and Foundational sysTems Lab</p>
           </div>
         </div>
@@ -23,7 +23,7 @@ export function Home(): ReactElement {
             </li>
 
             <li>
-                <b>Jan. 2026: </b> <a href="https://openreview.net/forum?id=3h3h3h3h3hhttps://search.bilibili.com/all?vt=24302013&keyword=mygo&from_source=webtop_search&spm_id_from=333.1007&search_source=5">One paper</a> is accepted by ICLR 2026.
+                <b>Jan. 2026: </b> <a href="https://openreview.net/pdf?id=GymjF88oGQ">One paper</a> is accepted by ICLR 2026.
             </li>
         </ul>
         {/* React Bootstrap 轮播图 */}

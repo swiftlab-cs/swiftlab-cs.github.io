@@ -20,17 +20,9 @@ export function News(): ReactElement {
         <div className="clearfix"> </div>
 
         <ul className="news-list">
-          <li>
-            <b>Sep. 2020: </b> Yongqiang Tian published a{' '}
-            <a href="https://yqtianust.github.io/awesome-ml-testing/">repo</a>{' '}
-            for awesome machine learning materials
-          </li>
-  
-          <li>
-            <b>Sep. 2020: </b> Yongqiang Tian published a{' '}
-            <a href="https://yqtianust.github.io/awesome-ml-testing/">repo</a>{' '}
-            for awesome machine learning materials
-          </li>
+            <li>
+                <b>Jan. 2026: </b> <a href="https://openreview.net/pdf?id=GymjF88oGQ">One paper</a> is accepted by ICLR 2026.
+            </li>
         </ul>
       </div>
     </>

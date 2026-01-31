@@ -1,4 +1,4 @@
-# Homepage of CASTLE Research Group
+# Homepage of SWIFT Lab
 
 ## Development
 
