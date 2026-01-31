@@ -1,5 +1,5 @@
-// 这个文件是用来获取publication信息的，所以会有axios的请求
-import { ReactElement, useEffect, useState } from 'react';
+// 静态构造publication信息
+import { ReactElement, useState } from 'react';
 
 import { GridLoader } from 'react-spinners';
 import {
@@ -7,57 +7,51 @@ import {
   Literatures,
   LiteratureAuthor,
 } from 'react-paper-list';
-import axios from 'axios';
 
 export function Publication(): ReactElement {
-  // useState是一个React Hook，返回条件变量的初始值和set函数
-  // 在未来你可以调用这个set函数来更新变量值，此时页面会重新触发渲染
-  // papers是数据，初始化为空数组（as LiteratureEntry[]类型），setPapers是更新papers的函数
-  const [papers, setPapers] = useState([] as LiteratureEntry[]);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    const fetchPromise = new Promise<LiteratureEntry[]>((resolve) => {
-      axios
-        .get(
-          'https://castlelab.github.io/selected-publications/public/bundle.json',
-        )
-        .then((resp) => {
-          console.log('Fetched data: ', resp.data);
-          const papers: LiteratureEntry[] = resp.data.map(
-            (d: any, index: number) => {
-              return {
-                id: index,
-                title: d.title,
-                date: new Date(d.date),
-                type: 'Conference Paper',
-                authors: d.authors.map((a: any) => {
-                  return {
-                    lastName: a,
-                    firstName: '',
-                  } as LiteratureAuthor;
-                }),
-                venue: d.venue,
-                venueShort: d.venueShort,
-                tags: d.tags,
-                awards: d.awards,
-                paperUrl: d.paperUrl,
-                abstract: d.abstract,
-                bibtex: d.bibtex,
-                projectUrl: d.projectUrl,
-                slidesUrl: d.slidesUrl,
-              } as unknown as LiteratureEntry;
-            },
-          );
-          resolve(papers);
-        });
-    });
-
-    fetchPromise.then((r) => {
-      setPapers(r);
-      setLoading(false);
-    });
-  }, []);
+  // 静态构造papers数据
+  const [papers, setPapers] = useState([
+    {
+      id: 0,
+      title: 'Example Paper Title 1',
+      date: new Date('2023-01-01'),
+      type: 'Conference Paper',
+      authors: [
+        { lastName: 'Author', firstName: 'First' } as LiteratureAuthor,
+        { lastName: 'Another', firstName: 'Author' } as LiteratureAuthor
+      ],
+      venue: 'International Conference on Example',
+      venueShort: 'ICE 2023',
+      tags: ['tag1', 'tag2'],
+      awards: [],
+      paperUrl: 'https://example.com/paper1',
+      abstract: 'This is an example abstract for the first paper.',
+      bibtex: '@inproceedings{example1, title={Example Paper Title 1}, author={First Author and Another Author}, booktitle={International Conference on Example}, year={2023}}',
+      projectUrl: '',
+      slidesUrl: ''
+    },
+    {
+      id: 1,
+      title: 'Example Paper Title 2',
+      date: new Date('2022-06-15'),
+      type: 'Journal Article',
+      authors: [
+        { lastName: 'Author', firstName: 'Second' } as LiteratureAuthor
+      ],
+      venue: 'Journal of Examples',
+      venueShort: 'JOE',
+      tags: ['tag3'],
+      awards: ['Best Paper Award'],
+      paperUrl: 'https://example.com/paper2',
+      abstract: 'This is an example abstract for the second paper.',
+      bibtex: '@article{example2, title={Example Paper Title 2}, author={Second Author}, journal={Journal of Examples}, year={2022}}',
+      projectUrl: 'https://example.com/project2',
+      slidesUrl: 'https://example.com/slides2'
+    }
+  ] as LiteratureEntry[]);
+  
+  // 静态数据不需要加载状态
+  const [loading, setLoading] = useState(false);
 
   return (
     <div className="container">
