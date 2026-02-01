@@ -2,7 +2,7 @@
 import { ReactElement } from 'react';
 
 import {
-  LiteratureEntry as BaseLiteratureEntry,
+  LiteratureEntry,
   Literatures,
   LiteratureAuthor,
 } from 'react-paper-list';
@@ -38,11 +38,6 @@ export function Publication(): ReactElement {
   //   }
   // ] as LiteratureEntry[];
    // 从json文件中读取papers数据并转换为指定格式
-
-  // 扩展带code的
-  interface LiteratureEntry extends BaseLiteratureEntry {
-    codeUrl?: string;
-  }
   const papers: LiteratureEntry[] = publicationData.map((d: any, index: number) => {
     // 处理作者格式：将"FirstName LastName"分割为firstName和lastName
     const parseAuthor = (authorName: string): LiteratureAuthor => {
@@ -64,7 +59,7 @@ export function Publication(): ReactElement {
       date: new Date(d.date),
       type: d.type || 'Conference Paper', // 使用JSON中的type，默认Conference Paper
       authors: d.authors.map(parseAuthor),
-      venue: d.venue,
+      // venue: d.venue,
       venueShort: d.venueShort,
       tags: d.tags,
       awards: d.awards,
@@ -73,7 +68,6 @@ export function Publication(): ReactElement {
       bibtex: d.bibtex,
       projectUrl: d.projectUrl,
       slidesUrl: d.slidesUrl,
-      codeUrl: "https://www.bilibili.com/"
     } as LiteratureEntry;
   });
 
