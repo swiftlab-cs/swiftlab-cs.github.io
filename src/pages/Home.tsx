@@ -101,7 +101,7 @@ export function Home(): ReactElement {
           <div className="group-text">
             <h3><b>SWIFT Lab</b></h3>
             <p>
-              <p style={{ lineHeight: '1.3', marginBottom: '1.5em' }}>
+              <p style={{ lineHeight: '1.6', marginBottom: '1.5em' }}>
               <b>SWIFT</b> (<b>S</b>oft<b>W</b>are <b>I</b>ntelligence and <b>F</b>oundational
               sys<b>T</b>ems) Lab is a joint lab between CUHK-Shenzhen, Duke Kunshan University, and Fudan University. The lab is led by Prof.{' '} 
               <a href="https://pinjiahe.github.io/">Pinjia He</a>, Prof.{' '}
