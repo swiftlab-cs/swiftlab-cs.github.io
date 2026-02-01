@@ -381,6 +381,25 @@ body {
 	background:#F4F4F4;
 	padding:6em 0;
 	}
+
+	/* 移动端布局 */
+@media (max-width: 480px) {
+	.team .container {
+		display: flex;
+		flex-direction: column;
+	}
+	.team .group{
+		order: 2;
+		width: 100%;
+		margin-top: 1em;
+	}
+	.team .group-text{
+		order: 1;
+		width: 100%;
+		margin-left: 0;
+	}
+}
+
 .team h4, .news h4, .people h4, .news-content h4, .publication-content h4, .project-content h4{
 	margin: 0 0 1.5em;
 	color: #292C34;
@@ -388,11 +407,21 @@ body {
 	/*font-family: 'Roboto', sans-serif;*/
 	text-align: center;
 	}
+
+/* 只有在大屏幕上才是分两边，每边40%和45% */
+@media (min-width: 481px) {
 .group{
 	float:left;
 	width:40%;
 	align-items: center;
 	}
+.group-text{
+	float:left;
+	width: 45%;
+	margin-left: 6em;
+	}		
+}
+
 .group img{
 	width:100%;
 	}
@@ -401,11 +430,7 @@ body {
 	margin:0 0 1em;
 	font-size:20px;
 	}
-.group-text{
-	float:left;
-	width: 45%;
-	margin-left: 6em;
-	}
+
 .group-text p{
 	color:#97999B;
 	margin:0;
@@ -1447,7 +1472,7 @@ p.para{
 		}
 	ul.nav1{
 		display:none;
-		background:#9c88ff;
+		background:#303952;
 		}
 	.top-nav ul li a{
 		display:block;
@@ -1477,7 +1502,7 @@ p.para{
 		}
 	ul.nav1{
 		display:none;
-		background:#9c88ff;
+		background:#303952;
         -webkit-animation: slide-down .3s ease-out;
         -moz-animation: slide-down .3s ease-out;
 		}
