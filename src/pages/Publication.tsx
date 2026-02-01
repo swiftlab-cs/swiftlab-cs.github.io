@@ -81,7 +81,7 @@ export function Publication(): ReactElement {
             title={'Selected Publication'}
             description={''}
             entries={papers}
-            listHeader={'Published Papers'}
+            // listHeader={''}
             defaultSortCriterion="date"
             defaultReverse={true}
             // enableSort
