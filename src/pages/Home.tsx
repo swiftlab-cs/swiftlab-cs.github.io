@@ -81,13 +81,13 @@ export function Home(): ReactElement {
               <Carousel.Item style={{ height: '300px' }}>
                 <img
                   className="d-block w-100 h-100"
-                  src="images/1.jpg"
+                  src="images/about2.jpg"
                   alt="Second slide"
                   // width="400px"
                   style={{ objectFit: 'contain', backgroundColor: '#F4F4F4' }}
                 />
               </Carousel.Item>
-              <Carousel.Item style={{ height: '300px' }}>
+              {/* <Carousel.Item style={{ height: '300px' }}>
                 <img
                   className="d-block w-100 h-100"
                   src="images/logo.png"
@@ -95,7 +95,7 @@ export function Home(): ReactElement {
                   // width="400px"
                   style={{ objectFit: 'contain', backgroundColor: '#F4F4F4' }}
                 />
-              </Carousel.Item>
+              </Carousel.Item> */}
             </Carousel>
           </div>
           <div className="group-text">

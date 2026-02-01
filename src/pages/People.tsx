@@ -94,9 +94,78 @@ export function People(): ReactElement {
           </div>
 
 
+          <div className="banner-bottom-left">
+              <div className="portrait">
+                <img
+                  alt=""
+                  src="images/xiaoyuan.jpg"
+                  className="portrait-round"
+                />
+              </div>
+            <h3>
+              <a href="https://xyliu-cs.github.io">Xiaoyuan Liu</a>
+            </h3>
+            <p>Ph.D. Student at CUHK-Shenzhen</p>
+          </div>
+
+          <div className="banner-bottom-left">
+              <div className="portrait">
+                <img
+                  alt=""
+                  src="images/aoyang.jpg"
+                  className="portrait-round"
+                />
+              </div>
+            <h3>
+              <a href="https://profile.aoyangfang.top/">Aoyang Fang</a>
+            </h3>
+            <p>Ph.D. Student at CUHK-Shenzhen</p>
+          </div>
+
+          <div className="banner-bottom-left">
+              <div className="portrait">
+                <img
+                  alt=""
+                  src="images/zhiqing.jpg"
+                  className="portrait-round"
+                />
+              </div>
+            <h3>
+              <a href="https://coxhin.github.io">Zhiqing Zhong</a>
+            </h3>
+            <p>Ph.D. Student at CUHK-Shenzhen</p>
+          </div>
+
+          <div className="banner-bottom-left">
+              <div className="portrait">
+                <img
+                  alt=""
+                  src="images/junjielong.jpg"
+                  className="portrait-round"
+                />
+              </div>
+            <h3>
+              <a href="https://siyuexi.github.io/">Junjielong Xv</a>
+            </h3>
+            <p>Ph.D. Student at CUHK-Shenzhen</p>
+          </div>
+
+          <div className="banner-bottom-left">
+              <div className="portrait">
+                <img
+                  alt=""
+                  src="images/youliang.jpg"
+                  className="portrait-round"
+                />
+              </div>
+            <h3>
+              <a href="https://youliangyuan.github.io/">Youliang Yuan</a>
+            </h3>
+            <p>Ph.D. Student at CUHK-Shenzhen</p>
+          </div>
 
           {/* Former Members */}
-          <div className="clearfix"> </div>
+          {/* <div className="clearfix"> </div>
           <h2>Former Members</h2>
 
           <div className="banner-bottom-left">
@@ -113,7 +182,7 @@ export function People(): ReactElement {
               <a href="https://haoyang9804.github.io">占位</a>
             </h3>
             <p>占位</p>
-          </div>
+          </div> */}
 
           
 
