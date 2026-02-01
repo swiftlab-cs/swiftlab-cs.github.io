@@ -24,7 +24,7 @@ export function Home(): ReactElement {
             <li>
                 <b>Jan. 2026: </b> <a href="https://openreview.net/pdf?id=GymjF88oGQ">One paper</a> is accepted by ICLR 2026.
             </li>
-            
+
             <li>
                 <b>Jan. 2026: </b> SWIFT Lab(FDU, DKU, CUHK-Shenzhen) Founded. Congratulations!
             </li>
@@ -75,7 +75,7 @@ export function Home(): ReactElement {
             <Carousel interval={3000} controls={true} indicators={true}>
               <Carousel.Item style={{ height: '300px' }}>
                 <img
-                  className="d-block w-100 h-100"
+                  className="d-block h-100"
                   src="images/about.jpg"
                   alt="First slide"
                   // width="400px"
@@ -84,7 +84,7 @@ export function Home(): ReactElement {
               </Carousel.Item>
               <Carousel.Item style={{ height: '300px' }}>
                 <img
-                  className="d-block w-100 h-100"
+                  className="d-block h-100"
                   src="images/about2.jpg"
                   alt="Second slide"
                   // width="400px"
@@ -93,7 +93,7 @@ export function Home(): ReactElement {
               </Carousel.Item>
               <Carousel.Item style={{ height: '300px' }}>
                 <img
-                  className="d-block w-100 h-100"
+                  className="d-block h-100"
                   src="images/about3.jpg"
                   alt="Third slide"
                   // width="400px"
