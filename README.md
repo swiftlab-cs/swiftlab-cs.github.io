@@ -27,6 +27,6 @@ Admin will merge the PR if everything looks good.
 
 ## Deployment
 
-Any push to `main` branch will trigger a `preview` GitHub Action to deploy to GitHub Page: https://swift-cs.github.io.
+Any push to `main` branch will trigger a `preview` GitHub Action to deploy to GitHub Page: https://swiftlab-cs.github.io.
 
-Deployment to server can only be triggered manually via GitHub Action [`deploy`](https://github.com/swift-cs/swift-cs.github.io/actions/workflows/deploy.yml).
+Deployment to server can only be triggered manually via GitHub Action [`deploy`](https://github.com/swiftlab-cs/swiftlab-cs.github.io/actions/workflows/deploy.yml).
