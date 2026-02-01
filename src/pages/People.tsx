@@ -1,6 +1,6 @@
 import { ReactElement } from 'react';
-import { faculty } from './faculty.json';
-import { students } from './students.json';
+import faculty from './faculty.json';
+import students from './students.json';
 
 export function People(): ReactElement {
   const renderPerson = (person: any) => (
