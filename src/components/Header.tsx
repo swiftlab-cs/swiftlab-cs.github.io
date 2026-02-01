@@ -21,8 +21,8 @@ export function Header(): ReactElement {
     const handleScroll = () => {
       const header = document.querySelector('.header');
       if (header) {
+        console.log('scrollY:', window.scrollY);
         if (window.scrollY > 0) {
-          console.log('scrollY:', window.scrollY);
           header.classList.add('scrolled');
         } else {
           header.classList.remove('scrolled');
@@ -41,6 +41,7 @@ export function Header(): ReactElement {
 
 
   const isHome = window.location.pathname === '/';
+  console.log('isHome:', isHome);
   return (
     <>
       <div className="header" style={{ backgroundColor: isHome ? 'transparent' : '#303952' }}>

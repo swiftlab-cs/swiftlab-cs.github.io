@@ -99,7 +99,7 @@ export function Home(): ReactElement {
             </Carousel>
           </div>
           <div className="group-text">
-            <h3><b>SWIFT</b> Lab</h3>
+            <h3><b>SWIFT Lab</b></h3>
             <p>
               <b>SWIFT</b> (<b>S</b>oft<b>W</b>are <b>I</b>ntelligence and <b>F</b>oundational
               sys<b>T</b>ems) Lab is XXX. The lab is headed by Assistant Prof.{' '}
