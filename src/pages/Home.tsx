@@ -2,6 +2,8 @@ import { ReactElement } from 'react';
 import { Carousel } from 'react-bootstrap';
 import publicationData from './publication.json';
 import awardsData from './awards.json';
+import studentsData from './students.json';
+import facultyData from './faculty.json';
 
 export function Home(): ReactElement {
   return (
@@ -135,10 +137,10 @@ export function Home(): ReactElement {
                   <span style={{ marginLeft: '8px' }}>Awards</span>
                 </div>
 
-                {/* <div>
-                  <span style={{ fontSize: '2.0em', fontWeight: 'bold', color: '#9c88ff' }}>{publicationData.length}</span>
+                <div>
+                  <span style={{ fontSize: '2.0em', fontWeight: 'bold', color: '#9c88ff' }}>{facultyData.length + studentsData.length}</span>
                   <span style={{ marginLeft: '8px' }}>Members</span>
-                </div> */}
+                </div>
               </div>
             </div>
             

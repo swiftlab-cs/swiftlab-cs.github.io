@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Pinjia He",
+    "photo": "images/pinjia.jpg",
+    "title": "Assistant Professor at CUHK",
+    "link": "https://pinjiahe.github.io/"
+  },
+  {
+    "id": 2,
+    "name": "Jiacheng Shen",
+    "photo": "images/jiacheng.png",
+    "title": "Assistant Professor at DKU",
+    "link": "https://bernardshen.github.io/"
+  },
+  {
+    "id": 3,
+    "name": "Yangfan Zhou",
+    "photo": "images/yangfan.jpg",
+    "title": "Professor at FDU",
+    "link": "https://www.y-droid.com/"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Xvchuan Luo",
+    "photo": "images/xvchuan.jpeg",
+    "title": "Ph.D. Student at FDU",
+    "link": null
+  },
+  {
+    "id": 2,
+    "name": "Yongsheng Yan",
+    "photo": "images/yongsheng.jpg",
+    "title": "Ph.D. Student at FDU",
+    "link": null
+  },
+  {
+    "id": 3,
+    "name": "Yvxuan Du",
+    "photo": "images/yvxuan.jpg",
+    "title": "M.Sc. Student at FDU",
+    "link": null
+  },
+  {
+    "id": 4,
+    "name": "Yifan Xiao",
+    "photo": "images/yifan.jpg",
+    "title": "M.Eng. Student at FDU",
+    "link": null
+  },
+  {
+    "id": 5,
+    "name": "Jianrong Qiu",
+    "photo": "images/jianrong.jpg",
+    "title": "M.Sc. Student at FDU",
+    "link": null
+  },
+  {
+    "id": 6,
+    "name": "Xiaoyuan Liu",
+    "photo": "images/xiaoyuan.jpg",
+    "title": "Ph.D. Student at CUHK-Shenzhen",
+    "link": "https://xyliu-cs.github.io"
+  },
+  {
+    "id": 7,
+    "name": "Aoyang Fang",
+    "photo": "images/aoyang.jpg",
+    "title": "Ph.D. Student at CUHK-Shenzhen",
+    "link": "https://profile.aoyangfang.top/"
+  },
+  {
+    "id": 8,
+    "name": "Zhiqing Zhong",
+    "photo": "images/zhiqing.jpg",
+    "title": "Ph.D. Student at CUHK-Shenzhen",
+    "link": "https://coxhin.github.io"
+  },
+  {
+    "id": 9,
+    "name": "Junjielong Xv",
+    "photo": "images/junjielong.jpg",
+    "title": "Ph.D. Student at CUHK-Shenzhen",
+    "link": "https://siyuexi.github.io/"
+  },
+  {
+    "id": 10,
+    "name": "Youliang Yuan",
+    "photo": "images/youliang.jpg",
+    "title": "Ph.D. Student at CUHK-Shenzhen",
+    "link": "https://youliangyuan.github.io/"
+  }
+]

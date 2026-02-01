@@ -1,41 +1,26 @@
 import { ReactElement } from 'react';
+import { faculty } from '../data/faculty.json';
+import { students } from '../data/students.json';
 
 export function People(): ReactElement {
+  const renderPerson = (person: any) => (
+    <div className="banner-bottom-left">
+      <div className="portrait">
+        <img alt="" src={person.photo} className="portrait-round" />
+      </div>
+      <h3>
+        {person.link ? <a href={person.link}>{person.name}</a> : person.name}
+      </h3>
+      <p>{person.title}</p>
+    </div>
+  );
   return (
     <>
       <div className="banner-bottom">
         <div className="container people">
           <h2>Faculty</h2>
 
-          <div className="banner-bottom-left">
-            <div className="portrait">
-              <img alt="" src="images/pinjia.jpg" className="portrait-round" />
-            </div>
-            <h3>
-              <a href="https://pinjiahe.github.io/">Pinjia He</a>
-            </h3>
-            <p>Assistant Professor at CUHK</p>
-          </div>
-
-          <div className="banner-bottom-left">
-            <div className="portrait">
-              <img alt="" src="images/jiacheng.png" className="portrait-round" />
-            </div>
-            <h3>
-              <a href="https://bernardshen.github.io/">Jiacheng Shen</a>
-            </h3>
-            <p>Assistant Professor at DKU</p>
-          </div>
-          
-          <div className="banner-bottom-left">
-            <div className="portrait">
-              <img alt="" src="images/yangfan.jpg" className="portrait-round" />
-            </div>
-            <h3>
-              <a href="https://www.y-droid.com/">Yangfan Zhou</a>
-            </h3>
-            <p>Professor at FDU</p>
-          </div>
+          {faculty.map(renderPerson)}
 
 
           {/*  Students  */}
@@ -43,126 +28,8 @@ export function People(): ReactElement {
           <div className="clearfix"> </div>
           <h2>Students</h2>
 
-          <div className="banner-bottom-left">
-            <div className="portrait">
-              <img alt="" src="images/xvchuan.jpeg" className="portrait-round" />
-            </div>
-            <h3>
-              Xvchuan Luo
-            </h3>
-            <p>Ph.D. Student at FDU</p>
-          </div>
 
-          <div className="banner-bottom-left">
-            <div className="portrait">
-              <img alt="" src="images/yongsheng.jpg" className="portrait-round" />
-            </div>
-            <h3>
-              Yongsheng Yan
-            </h3>
-            <p>Ph.D. Student at FDU</p>
-          </div>
-    
-          <div className="banner-bottom-left">
-            <div className="portrait">
-              <img alt="" src="images/yvxuan.jpg" className="portrait-round" />
-            </div>
-            <h3>
-              Yvxuan Du
-            </h3>
-            <p>M.Sc. Student at FDU</p>
-          </div>
-
-          <div className="banner-bottom-left">
-            <div className="portrait">
-              <img alt="" src="images/yifan.jpg" className="portrait-round" />
-            </div>
-            <h3>
-              Yifan Xiao
-            </h3>
-            <p>M.Eng. Student at FDU</p>
-          </div>
-
-          <div className="banner-bottom-left">
-            <div className="portrait">
-              <img alt="" src="images/jianrong.jpg" className="portrait-round" />
-            </div>
-            <h3>
-              Jianrong Qiu
-            </h3>
-            <p>M.Sc. Student at FDU</p>
-          </div>
-
-
-          <div className="banner-bottom-left">
-              <div className="portrait">
-                <img
-                  alt=""
-                  src="images/xiaoyuan.jpg"
-                  className="portrait-round"
-                />
-              </div>
-            <h3>
-              <a href="https://xyliu-cs.github.io">Xiaoyuan Liu</a>
-            </h3>
-            <p>Ph.D. Student at CUHK-Shenzhen</p>
-          </div>
-
-          <div className="banner-bottom-left">
-              <div className="portrait">
-                <img
-                  alt=""
-                  src="images/aoyang.jpg"
-                  className="portrait-round"
-                />
-              </div>
-            <h3>
-              <a href="https://profile.aoyangfang.top/">Aoyang Fang</a>
-            </h3>
-            <p>Ph.D. Student at CUHK-Shenzhen</p>
-          </div>
-
-          <div className="banner-bottom-left">
-              <div className="portrait">
-                <img
-                  alt=""
-                  src="images/zhiqing.jpg"
-                  className="portrait-round"
-                />
-              </div>
-            <h3>
-              <a href="https://coxhin.github.io">Zhiqing Zhong</a>
-            </h3>
-            <p>Ph.D. Student at CUHK-Shenzhen</p>
-          </div>
-
-          <div className="banner-bottom-left">
-              <div className="portrait">
-                <img
-                  alt=""
-                  src="images/junjielong.jpg"
-                  className="portrait-round"
-                />
-              </div>
-            <h3>
-              <a href="https://siyuexi.github.io/">Junjielong Xv</a>
-            </h3>
-            <p>Ph.D. Student at CUHK-Shenzhen</p>
-          </div>
-
-          <div className="banner-bottom-left">
-              <div className="portrait">
-                <img
-                  alt=""
-                  src="images/youliang.jpg"
-                  className="portrait-round"
-                />
-              </div>
-            <h3>
-              <a href="https://youliangyuan.github.io/">Youliang Yuan</a>
-            </h3>
-            <p>Ph.D. Student at CUHK-Shenzhen</p>
-          </div>
+          {students.map(renderPerson)}
 
           {/* Former Members */}
           {/* <div className="clearfix"> </div>
