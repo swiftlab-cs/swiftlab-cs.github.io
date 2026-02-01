@@ -22,11 +22,11 @@ export function Home(): ReactElement {
         <h4>News</h4>
         <ul>
             <li>
-                <b>Jan. 2026: </b> <a href="https://openreview.net/pdf?id=GymjF88oGQ">One paper</a> is accepted by ICLR 2026.
+                <strong>Jan. 2026: </strong> <a href="https://openreview.net/pdf?id=GymjF88oGQ">One paper</a> is accepted by ICLR 2026.
             </li>
 
             <li>
-                <b>Jan. 2026: </b> SWIFT Lab Founded!
+                <strong>Jan. 2026: </strong> SWIFT Lab Founded!
             </li>
 
         </ul>
