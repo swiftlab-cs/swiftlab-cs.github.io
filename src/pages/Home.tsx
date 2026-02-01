@@ -1,6 +1,6 @@
 import { ReactElement } from 'react';
 import { Carousel } from 'react-bootstrap';
-
+import publicationData from './publication.json';
 
 export function Home(): ReactElement {
   return (
@@ -118,9 +118,19 @@ export function Home(): ReactElement {
                       <span style={{ position: 'absolute', left: '0', color: '#9c88ff' }}>•</span>
                       <div>Sys4ML (Systems for Machine Learning)</div>
                   </li>
-                </ul>  
+              </ul>  
             
             </p>
+              {/* 显示动态统计信息 */}
+            <div style={{ marginTop: '20px', padding: '15px', backgroundColor: '#f8f9fa', borderRadius: '8px' }}>
+              <div style={{ display: 'flex', gap: '30px', flexWrap: 'wrap' }}>
+                <div>
+                  <span style={{ fontSize: '1.2em', fontWeight: 'bold', color: '#9c88ff' }}>{publicationData.length}</span>
+                  <span style={{ marginLeft: '8px' }}>Publications</span>
+                </div>
+              </div>
+            </div>
+            
           </div>
           <div className="clearfix"> </div>
         </div>
