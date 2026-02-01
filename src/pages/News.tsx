@@ -22,11 +22,11 @@ export function News(): ReactElement {
 
         <ul className="news-list">
             <li>
-                <b>Jan. 2026: </b> We are excited to announce <strong>the launch of SWIFT Lab</strong>, a new cross-institutional laboratory jointly established by Fudan University (FDU), Duke Kunshan University (DKU), and The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen).
+                <b>Jan. 2026: </b> <a href="https://openreview.net/pdf?id=GymjF88oGQ">One paper</a> is accepted by ICLR 2026.
             </li>
 
             <li>
-                <b>Jan. 2026: </b> <a href="https://openreview.net/pdf?id=GymjF88oGQ">One paper</a> is accepted by ICLR 2026.
+                <b>Jan. 2026: </b> We are excited to announce <strong>the launch of SWIFT Lab</strong>, a new cross-institutional laboratory jointly established by Fudan University (FDU), Duke Kunshan University (DKU), and The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen).
             </li>
         </ul>
       </div>
