@@ -101,7 +101,7 @@ export function Home(): ReactElement {
           <div className="group-text">
             <h3><b>SWIFT Lab</b></h3>
             <p>
-              <p style={{ lineHeight: '1.0', marginBottom: '1.5em' }}>
+              <p style={{ lineHeight: '1.3', marginBottom: '1.5em' }}>
               <b>SWIFT</b> (<b>S</b>oft<b>W</b>are <b>I</b>ntelligence and <b>F</b>oundational
               sys<b>T</b>ems) Lab is a joint lab between CUHK-Shenzhen, Duke Kunshan University, and Fudan University. The lab is led by Prof.{' '} 
               <a href="https://pinjiahe.github.io/">Pinjia He</a>, Prof.{' '}
@@ -109,12 +109,12 @@ export function Home(): ReactElement {
               <a href="https://www.y-droid.com/">Yangfan Zhou</a>. Our goal is to bring intelligence into software development and making intelligent systems more available to everyone. The followings are the two research main research areas at Swift Lab: 
               </p>
 
-              <ul style={{fontSize: '1.1em', listStyle: 'none', paddingLeft: '5px' }}>
-                  <li style={{ position: 'relative', paddingLeft: '0px' }}>
+              <ul style={{fontSize: '1.1em', listStyle: 'none', paddingLeft: '0px' }}>
+                  <li style={{ position: 'relative', paddingLeft: '20px' }}>
                       <span style={{ position: 'absolute', left: '0', color: '#9c88ff' }}>•</span>
                       <div>Al4SE (Artificial Intelligence for Software Engineering)</div>
                   </li>
-                  <li style={{ position: 'relative', paddingLeft: '0px' }}>
+                  <li style={{ position: 'relative', paddingLeft: '20px' }}>
                       <span style={{ position: 'absolute', left: '0', color: '#9c88ff' }}>•</span>
                       <div>Sys4ML (Systems for Machine Learning)</div>
                   </li>
