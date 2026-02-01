@@ -23,7 +23,7 @@ export function Header(): ReactElement {
       const header = document.querySelector('.header');
       if (header) {
         console.log('scrollY:', window.scrollY);
-        if (window.scrollY > 0) {
+        if (window.scrollY > 1) {
           setScrolled(true);
         } else {
           setScrolled(false);
