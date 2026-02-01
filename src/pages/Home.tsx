@@ -1,6 +1,7 @@
 import { ReactElement } from 'react';
 import { Carousel } from 'react-bootstrap';
 import publicationData from './publication.json';
+import awardsData from './awards.json';
 
 export function Home(): ReactElement {
   return (
@@ -122,12 +123,22 @@ export function Home(): ReactElement {
             
             </p>
               {/* 显示动态统计信息 */}
-            <div style={{ marginTop: '20px', padding: '15px', backgroundColor: '#f8f9fa', borderRadius: '8px' }}>
+            <div style={{ paddingTop: '15px', borderRadius: '8px' }}>
               <div style={{ display: 'flex', gap: '30px', flexWrap: 'wrap' }}>
                 <div>
-                  <span style={{ fontSize: '1.2em', fontWeight: 'bold', color: '#9c88ff' }}>{publicationData.length}</span>
-                  <span style={{ marginLeft: '8px' }}>Publications</span>
+                  <span style={{ fontSize: '2.0em', fontWeight: 'bold', color: '#9c88ff' }}>{publicationData.length}</span>
+                  <span style={{ marginLeft: '8px' }}>Papers</span>
                 </div>
+
+                <div>
+                  <span style={{ fontSize: '2.0em', fontWeight: 'bold', color: '#9c88ff' }}>{awardsData.length}</span>
+                  <span style={{ marginLeft: '8px' }}>Awards</span>
+                </div>
+
+                {/* <div>
+                  <span style={{ fontSize: '2.0em', fontWeight: 'bold', color: '#9c88ff' }}>{publicationData.length}</span>
+                  <span style={{ marginLeft: '8px' }}>Members</span>
+                </div> */}
               </div>
             </div>
             
