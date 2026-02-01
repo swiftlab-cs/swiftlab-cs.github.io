@@ -107,14 +107,12 @@ export function Home(): ReactElement {
               <a href="https://bernardshen.github.io/">Jiacheng Shen</a>， and Prof.{' '}
               <a href="https://www.y-droid.com/">Yangfan Zhou</a>. Our goal is to bring intelligence into software development and making intelligent systems more available to everyone. The followings are the two research main research areas at Swift Lab: 
               
-              <ul className="list-unstyled li-space-lg">
-                  <li className="media">
-                      <i className="fas fa-square"></i>
-                      <div className="media-body">Al4SE (Artificial Intelligence for Software Engineering)</div>
+              <ul>
+                  <li>
+                      <div>Al4SE (Artificial Intelligence for Software Engineering)</div>
                   </li>
-                  <li className="media">
-                      <i className="fas fa-square"></i>
-                      <div className="media-body">Sys4ML (Systems for Machine Learning)</div>
+                  <li>
+                      <div>Sys4ML (Systems for Machine Learning)</div>
                   </li>
                 </ul>  
             

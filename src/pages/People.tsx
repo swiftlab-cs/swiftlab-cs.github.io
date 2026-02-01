@@ -9,12 +9,12 @@ export function People(): ReactElement {
 
           <div className="banner-bottom-left">
             <div className="portrait">
-              <img alt="" src="images/yangfan.jpg" className="portrait-round" />
+              <img alt="" src="images/pinjia.jpg" className="portrait-round" />
             </div>
             <h3>
-              <a href="https://www.y-droid.com/">Yangfan Zhou</a>
+              <a href="https://pinjiahe.github.io/">Pinjia He</a>
             </h3>
-            <p>Professor at FDU</p>
+            <p>Assistant Professor at CUHK</p>
           </div>
 
           <div className="banner-bottom-left">
@@ -26,15 +26,15 @@ export function People(): ReactElement {
             </h3>
             <p>Assistant Professor at DKU</p>
           </div>
-
+          
           <div className="banner-bottom-left">
             <div className="portrait">
-              <img alt="" src="images/pinjia.jpg" className="portrait-round" />
+              <img alt="" src="images/yangfan.jpg" className="portrait-round" />
             </div>
             <h3>
-              <a href="https://pinjiahe.github.io/">Pinjia He</a>
+              <a href="https://www.y-droid.com/">Yangfan Zhou</a>
             </h3>
-            <p>Assistant Professor at CUHK</p>
+            <p>Professor at FDU</p>
           </div>
 
 
