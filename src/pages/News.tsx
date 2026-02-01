@@ -5,7 +5,8 @@ export function News(): ReactElement {
     <>
       <div className="container news-content">
         <h4>News</h4>
-        <div className="news-photo">
+        {/* 置顶消息 */}
+        {/* <div className="news-photo">
           <img src="images/news3.jpg" alt=" " />
         </div>
         <div className="news-photo-text">
@@ -17,9 +18,13 @@ export function News(): ReactElement {
           </p>
         </div>
 
-        <div className="clearfix"> </div>
+        <div className="clearfix"> </div> */}
 
         <ul className="news-list">
+            <li>
+                <b>Jan. 2026: </b> We are excited to announce <b>the launch of SWIFT Lab</b>, a new cross-institutional laboratory jointly established by Fudan University (FDU), Duke Kunshan University (DKU), and The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen).
+            </li>
+
             <li>
                 <b>Jan. 2026: </b> <a href="https://openreview.net/pdf?id=GymjF88oGQ">One paper</a> is accepted by ICLR 2026.
             </li>

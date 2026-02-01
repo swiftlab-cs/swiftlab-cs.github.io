@@ -39,7 +39,7 @@ export function Publication(): ReactElement {
 
   return (
     <div className="container">
-      <div style={{ minHeight: 200 }}>
+      <div style={{ minHeight: 200, paddingTop: 20 }}>
         {/* 原来这个是三元表达式，loading为true时显示加载动画（GridLoader组件），否则显示publication列表 */}
         {(
           // 这就是文件列表了，已经被打包为了Literatures组件
