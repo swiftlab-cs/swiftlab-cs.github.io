@@ -1464,7 +1464,7 @@ p.para{
 		}
 	ul.nav1{
 		display:none;
-		background:#9c88ff;
+		background:#303952;
 		}
 	.top-nav ul li a{
 		display:block;
@@ -1494,7 +1494,7 @@ p.para{
 		}
 	ul.nav1{
 		display:none;
-		background:#9c88ff;
+		background:#303952;
         -webkit-animation: slide-down .3s ease-out;
         -moz-animation: slide-down .3s ease-out;
 		}
