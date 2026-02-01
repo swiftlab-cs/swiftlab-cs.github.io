@@ -1988,11 +1988,6 @@ p.para{
 	margin: 1.5em auto;
 	padding-left: 0;
 }
-.news-list li b {
-	display: inline-block;
-	float: left;
-	width: 8em;
-}
 .margin_20 {
 	margin-bottom: 20px;
 }
@@ -2006,9 +2001,19 @@ p.para{
 	float: left;
 	width: 8em;
 }
+.news-list li b {
+	display: inline-block;
+	float: left;
+	width: 8em;
+}
 }
 @media (max-width: 480px) {
 .news li b {
+	display: inline-block;
+	float: left;
+	width: 6em;
+}
+.news-list li b {
 	display: inline-block;
 	float: left;
 	width: 6em;
