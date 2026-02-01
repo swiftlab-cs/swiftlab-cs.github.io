@@ -115,11 +115,11 @@ export function Home(): ReactElement {
 
               <ul style={{fontSize: '1.1em', listStyle: 'none', paddingLeft: '0px' }}>
                   <li style={{ position: 'relative', paddingLeft: '20px' }}>
-                      <span style={{ position: 'absolute', left: '0', color: '#9c88ff' }}>•</span>
+                      <span style={{ position: 'absolute', left: '0', color: '#17c0eb' }}>•</span>
                       <div>Al4SE (Artificial Intelligence for Software Engineering)</div>
                   </li>
                   <li style={{ position: 'relative', paddingLeft: '20px' }}>
-                      <span style={{ position: 'absolute', left: '0', color: '#9c88ff' }}>•</span>
+                      <span style={{ position: 'absolute', left: '0', color: '#17c0eb' }}>•</span>
                       <div>Sys4ML (Systems for Machine Learning)</div>
                   </li>
               </ul>  
@@ -129,17 +129,17 @@ export function Home(): ReactElement {
             <div style={{ paddingTop: '15px', borderRadius: '8px' }}>
               <div style={{ display: 'flex', gap: '30px', flexWrap: 'wrap' }}>
                 <div>
-                  <span style={{ fontSize: '2.0em', fontWeight: 'bold', color: '#9c88ff' }}>{publicationData.length}</span>
+                  <span style={{ fontSize: '2.0em', fontWeight: 'bold', color: '#17c0eb' }}>{publicationData.length}</span>
                   <span style={{ marginLeft: '8px' }}>Papers</span>
                 </div>
 
                 <div>
-                  <span style={{ fontSize: '2.0em', fontWeight: 'bold', color: '#9c88ff' }}>{awardsData.length}</span>
+                  <span style={{ fontSize: '2.0em', fontWeight: 'bold', color: '#17c0eb' }}>{awardsData.length}</span>
                   <span style={{ marginLeft: '8px' }}>Awards</span>
                 </div>
 
                 <div>
-                  <span style={{ fontSize: '2.0em', fontWeight: 'bold', color: '#9c88ff' }}>{facultyData.length + studentsData.length}</span>
+                  <span style={{ fontSize: '2.0em', fontWeight: 'bold', color: '#17c0eb' }}>{facultyData.length + studentsData.length}</span>
                   <span style={{ marginLeft: '8px' }}>Members</span>
                 </div>
               </div>
