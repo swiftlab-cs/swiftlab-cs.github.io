@@ -19,7 +19,7 @@ export function Home(): ReactElement {
         <h4>News</h4>
         <ul>
             <li>
-                <b>Jan. 2026: </b> SWIFT Lab(FDU, DKU, CUHK) Founded. Congratulations!
+                <b>Jan. 2026: </b> SWIFT Lab(FDU, DKU, CUHK-Shenzhen) Founded. Congratulations!
             </li>
 
             <li>
@@ -102,9 +102,22 @@ export function Home(): ReactElement {
             <h3><b>SWIFT Lab</b></h3>
             <p>
               <b>SWIFT</b> (<b>S</b>oft<b>W</b>are <b>I</b>ntelligence and <b>F</b>oundational
-              sys<b>T</b>ems) Lab is XXX. The lab is headed by Assistant Prof.{' '}
-              <a href="https://faculty.dukekunshan.edu.cn/zh-hans/faculty_profiles/chenjiacheng">Jiacheng Shen</a>.
-              We are interested in research topices regarding XXX.
+              sys<b>T</b>ems) Lab is a joint lab between CUHK-Shenzhen, Duke Kunshan University, and Fudan University. The lab is led by Prof.{' '} 
+              <a href="https://pinjiahe.github.io/">Pinjia He</a>, Prof.{' '}
+              <a href="https://bernardshen.github.io/">Jiacheng Shen</a>， and Prof.{' '}
+              <a href="https://www.y-droid.com/">Yangfan Zhou</a>. Our goal is to bring intelligence into software development and making intelligent systems more available to everyone. The followings are the two research main research areas at Swift Lab: 
+              
+              <ul className="list-unstyled li-space-lg">
+                  <li className="media">
+                      <i className="fas fa-square"></i>
+                      <div className="media-body">Al4SE (Artificial Intelligence for Software Engineering)</div>
+                  </li>
+                  <li className="media">
+                      <i className="fas fa-square"></i>
+                      <div className="media-body">Sys4ML (Systems for Machine Learning)</div>
+                  </li>
+                </ul>  
+            
             </p>
           </div>
           <div className="clearfix"> </div>
