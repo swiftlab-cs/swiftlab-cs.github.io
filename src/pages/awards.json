@@ -1,21 +1,8 @@
 [
   {
-    "date": "XX月份 2025",
-    "title": "IEEE CS TCSE Rising Star Award",
-    "year": "2025",
-    "recipient": "Prof. Pinjia He",
-    "link": "https://pinjiahe.github.io/"
-  },
-  {
-    "date": "XX月份 2025",
-    "title": "2024 Young Researcher Award of The Chinese University of Hong Kong, Shenzhen",
-    "recipient": "Prof. Pinjia He",
-    "link": "https://pinjiahe.github.io/"
-  },
-  {
-    "date": "XX月份 2025",
-    "title": "Distinguished Reviewer Award",
-    "conference": "FSE",
+    "date": "Oct. 2025",
+    "title": "Top Reviewer (Supervised student: Youliang Yuan)",
+    "conference": "NeurlPS",
     "year": "2025",
     "recipient": "Prof. Pinjia He",
     "link": "https://pinjiahe.github.io/"
@@ -28,25 +15,38 @@
     "link": "https://pinjiahe.github.io/"
   },
   {
-    "date": "XX月份 2025",
-    "title": "Top Reviewer (Supervised student: Youliang Yuan)",
-    "conference": "NeurlPS",
+    "date": "Jun. 2025",
+    "title": "Distinguished Reviewer Award",
+    "conference": "FSE",
     "year": "2025",
     "recipient": "Prof. Pinjia He",
     "link": "https://pinjiahe.github.io/"
   },
   {
-    "date": "XX月份 2024",
-    "title": "Distinguished Reviewer Award 2023",
-    "journal": "IEEE Transactions of Software Engineering",
+    "date": "Apr. 2025",
+    "title": "IEEE CS TCSE Rising Star Award",
+    "year": "2025",
     "recipient": "Prof. Pinjia He",
     "link": "https://pinjiahe.github.io/"
   },
   {
-    "date": "XX月份 2024",
+    "date": "Nov. 2024",
+    "title": "2024 Young Researcher Award of The Chinese University of Hong Kong, Shenzhen",
+    "recipient": "Prof. Pinjia He",
+    "link": "https://pinjiahe.github.io/"
+  },
+  {
+    "date": "Jul. 2024",
     "title": "Distinguished Artifact Reviewer Award (Supervised student: Aoyang Fang)",
     "conference": "ECOOP",
     "year": "2024",
+    "recipient": "Prof. Pinjia He",
+    "link": "https://pinjiahe.github.io/"
+  },
+  {
+    "date": "Mar. 2024",
+    "title": "Distinguished Reviewer Award 2023",
+    "journal": "IEEE Transactions of Software Engineering",
     "recipient": "Prof. Pinjia He",
     "link": "https://pinjiahe.github.io/"
   }
