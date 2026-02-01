@@ -1,9 +1,9 @@
 {
   "name": "homepage",
-  "description": "Homepage of CASTLE Research Group",
+  "description": "Homepage of SWIFT Lab",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://castle.cse.ust.hk",
+  "homepage": "https://swiftlab-cs.github.io/",
   "type": "module",
   "packageManager": "yarn@3.6.1",
   "dependencies": {
