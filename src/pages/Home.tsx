@@ -108,7 +108,7 @@ export function Home(): ReactElement {
               <b>SWIFT</b> (<b>S</b>oft<b>W</b>are <b>I</b>ntelligence and <b>F</b>oundational
               sys<b>T</b>ems) Lab is a joint lab between CUHK-Shenzhen, Duke Kunshan University, and Fudan University. The lab is led by Prof.{' '} 
               <a href="https://pinjiahe.github.io/">Pinjia He</a>, Prof.{' '}
-              <a href="https://bernardshen.github.io/">Jiacheng Shen</a>， and Prof.{' '}
+              <a href="https://bernardshen.github.io/">Jiacheng Shen</a>, and Prof.{' '}
               <a href="https://www.y-droid.com/">Yangfan Zhou</a>. Our goal is to bring intelligence into software development and making intelligent systems more available to everyone. The followings are the two research main research areas at Swift Lab: 
               </p>
 
