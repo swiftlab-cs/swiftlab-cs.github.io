@@ -2037,7 +2037,7 @@ p.para{
 /* 修改左右控制键颜色 */
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-	filter: invert(48%) sepia(89%) saturate(2476%) hue-rotate(220deg) brightness(118%) contrast(119%);
+	filter: invert(48%) sepia(89%) saturate(2476%) hue-rotate(170deg) brightness(118%) contrast(119%);
     background-color: transparent;
     background-size: 100% 100%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -2049,5 +2049,5 @@ p.para{
 }
  
 .carousel-indicators button.active {
-    background-color: #1e6692 !important;
+    background-color: #2983bb !important;
 }
