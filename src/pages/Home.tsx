@@ -12,7 +12,7 @@ export function Home(): ReactElement {
         <div className="container">
           <div className="banner-info">
             <h2 style={{ color: '#baf8ff' }}>Swift Lab</h2>
-            <p><strong>S</>oft<strong>W</>are <strong>I</strong>ntelligence and <strong>F</strong>oundational sys<strong>T</strong>ems Lab</p>
+            <p><strong>S</strong>oft<strong>W</strong>are <strong>I</strong>ntelligence and <strong>F</strong>oundational sys<strong>T</strong>ems Lab</p>
           </div>
         </div>
       </div>
