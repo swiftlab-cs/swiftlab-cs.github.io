@@ -22,6 +22,9 @@ export function Home(): ReactElement {
         <h4>News</h4>
         <ul>
             <li>
+                <b>Feb. 2026: </b> We are <b>recruiting PhD students</b> working on efficient machine learning systems in 2026 Fall. Feel free to email us if you are interested!
+            </li>
+            <li>
                 <b>Jan. 2026: </b> <a href="https://openreview.net/pdf?id=GymjF88oGQ">One paper</a> is accepted by ICLR 2026.
             </li>
 
