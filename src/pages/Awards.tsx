@@ -11,7 +11,11 @@ export function Awards(): ReactElement {
           {awardsData.map((award, index) => (
             <li key={index}>
               <b>{award.date}: </b>
-              {award.recipient}{' '}
+              {award.link ? (
+                <a href={award.link}>{award.recipient}</a>
+              ) : (
+                award.recipient
+              )}{' '}
               received <strong>{award.title}</strong>
               {award.conference && `, ${award.conference}`}
               {award.journal && `, ${award.journal}`}
