@@ -64,5 +64,17 @@
     "photo": "images/youliang.jpg",
     "title": "Ph.D. Student at CUHK-Shenzhen",
     "link": "https://youliangyuan.github.io/"
+  },
+  {
+    "name": "Zhiyuan Shen",
+    "photo": "images/zhiyuan.jpg",
+    "title": "Undergraduate Student at DKU",
+    "link": null
+  },
+  {
+    "name": "Jiawei Guo",
+    "photo": "images/jiawei.jpg",
+    "title": "Research Assistant at DKU",
+    "link": null
   }
 ]
