@@ -1,5 +1,8 @@
 import { ReactElement } from 'react';
 
+// 导入新闻JSON数据
+import newsData from './news.json';
+
 export function News(): ReactElement {
   return (
     <>
@@ -21,13 +24,13 @@ export function News(): ReactElement {
         <div className="clearfix"> </div> */}
 
         <ul className="news-list">
-            <li>
-                <b>Jan. 2026: </b> <a href="https://openreview.net/pdf?id=GymjF88oGQ">One paper</a> is accepted by ICLR 2026.
+          {/* 动态渲染新闻列表 */}
+          {newsData.map((news, index) => (
+            <li key={index}>
+              <b>{news.date}: </b>
+              <span dangerouslySetInnerHTML={{ __html: news.content }} />
             </li>
-
-            <li>
-                <b>Jan. 2026: </b> We are excited to announce <strong>the launch of Swift Lab</strong>, a new cross-institutional laboratory jointly established by Fudan University (FDU), Duke Kunshan University (DKU), and The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen).
-            </li>
+          ))}
         </ul>
       </div>
     </>
