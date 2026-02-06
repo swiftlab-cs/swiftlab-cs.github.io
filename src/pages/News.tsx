@@ -11,10 +11,10 @@ export function News(): ReactElement {
         </div>
         <div className="news-photo-text">
           <h5>
-            SWIFT Lab Founded!
+            Swift Lab Founded!
           </h5>
           <p>
-            We are excited to announce the launch of SWIFT, a new cross-institutional laboratory jointly established by Fudan University (FDU), Duke Kunshan University (DKU), and The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen).
+            We are excited to announce the launch of Swift, a new cross-institutional laboratory jointly established by Fudan University (FDU), Duke Kunshan University (DKU), and The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen).
           </p>
         </div>
 
@@ -26,7 +26,7 @@ export function News(): ReactElement {
             </li>
 
             <li>
-                <b>Jan. 2026: </b> We are excited to announce <strong>the launch of SWIFT Lab</strong>, a new cross-institutional laboratory jointly established by Fudan University (FDU), Duke Kunshan University (DKU), and The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen).
+                <b>Jan. 2026: </b> We are excited to announce <strong>the launch of Swift Lab</strong>, a new cross-institutional laboratory jointly established by Fudan University (FDU), Duke Kunshan University (DKU), and The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen).
             </li>
         </ul>
       </div>

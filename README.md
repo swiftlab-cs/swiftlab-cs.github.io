@@ -1,4 +1,4 @@
-# Homepage of SWIFT Lab
+# Homepage of Swift Lab
 
 ## Development
 
@@ -21,7 +21,7 @@ yarn start
 ## Update
 
 The `main` branch is protected and cannot be directed pushed to (admin has bypassing privileges, however).
-Should SWIFT members need to update the homepage, a Pull Request (PR) should be created.
+Should Swift members need to update the homepage, a Pull Request (PR) should be created.
 Each PR needs to go through several checks (GitHub Actions), e.g., webpage compilation.
 Admin will merge the PR if everything looks good.
 

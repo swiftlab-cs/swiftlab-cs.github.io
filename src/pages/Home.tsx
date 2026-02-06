@@ -11,8 +11,8 @@ export function Home(): ReactElement {
       <div className="banner">
         <div className="container">
           <div className="banner-info">
-            <h2 style={{ color: '#baf8ff' }}>SWIFT Lab</h2>
-            <p>SoftWare Intelligence and Foundational sysTems Lab</p>
+            <h2 style={{ color: '#baf8ff' }}>Swift Lab</h2>
+            <p><strong>S</>oft<strong>W</>are <strong>I</strong>ntelligence and <strong>F</strong>oundational sys<strong>T</strong>ems Lab</p>
           </div>
         </div>
       </div>
@@ -26,7 +26,7 @@ export function Home(): ReactElement {
             </li>
 
             <li>
-                <b>Jan. 2026: </b> SWIFT Lab Founded!
+                <b>Jan. 2026: </b> Swift Lab Founded!
             </li>
 
         </ul>
@@ -103,10 +103,10 @@ export function Home(): ReactElement {
             </Carousel>
           </div>
           <div className="group-text">
-            <h3><b>SWIFT Lab</b></h3>
+            <h3><b>Swift Lab</b></h3>
             <p>
               <p style={{fontSize: '1.0em', lineHeight: '1.6', marginBottom: '1.5em' }}>
-              <b>SWIFT</b> (<b>S</b>oft<b>W</b>are <b>I</b>ntelligence and <b>F</b>oundational
+              <b>Swift</b> (<b>S</b>oft<b>W</b>are <b>I</b>ntelligence and <b>F</b>oundational
               sys<b>T</b>ems) Lab is a joint lab between CUHK-Shenzhen, Duke Kunshan University, and Fudan University. The lab is led by Prof.{' '} 
               <a href="https://pinjiahe.github.io/">Pinjia He</a>, Prof.{' '}
               <a href="https://bernardshen.github.io/">Jiacheng Shen</a>, and Prof.{' '}

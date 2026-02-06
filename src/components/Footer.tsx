@@ -9,7 +9,7 @@ export function Footer(): ReactElement {
             <div className="footer-left-text">
               <p>
                 {' '}
-                © SWIFT Lab | Last Updated:{' '}
+                © Swift Lab | Last Updated:{' '}
                 <span id="build-time">{process.env.REACT_APP_BUILD_TIME}</span>{' '}
                 | Built Version Hash:{' '}
                 <span id="build-hash">{process.env.REACT_APP_GIT_SHA}</span>{' '}
