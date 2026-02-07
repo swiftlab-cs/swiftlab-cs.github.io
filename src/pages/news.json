@@ -1,14 +1,17 @@
 [
   {
     "date": "Feb. 2026",
-    "content": "We are seeking motivated PhD candidates to join our research on efficient machine learning systems, starting in Fall 2026. If you are interested, please contact us for more information."
+    "content": "We are seeking motivated PhD candidates to join our research on efficient machine learning systems, starting in Fall 2026. If you are interested, please contact us for more information.",
+    "abstract": "We are seeking motivated PhD candidates to join our research on efficient machine learning systems, starting in Fall 2026. If you are interested, please contact us for more information."
   },
   {
     "date": "Jan. 2026",
-    "content": "<a href='https://openreview.net/pdf?id=GymjF88oGQ'>One paper</a> is accepted by ICLR 2026."
+    "content": "<a href='https://openreview.net/pdf?id=GymjF88oGQ'>One paper</a> is accepted by ICLR 2026.",
+    "abstract": "<a href='https://openreview.net/pdf?id=GymjF88oGQ'>One paper</a> is accepted by ICLR 2026."
   },
   {
     "date": "Jan. 2026",
-    "content": "We are excited to announce <strong>the launch of Swift Lab</strong>, a new cross-institutional laboratory jointly established by Fudan University (FDU), Duke Kunshan University (DKU), and The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen)."
+    "content": "We are excited to announce <strong>the launch of Swift Lab</strong>, a new cross-institutional laboratory jointly established by Fudan University (FDU), Duke Kunshan University (DKU), and The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen).",
+    "abstract": "Swift Lab Founded!"
   }
 ]

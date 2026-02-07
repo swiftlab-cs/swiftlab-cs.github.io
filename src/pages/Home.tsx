@@ -4,6 +4,7 @@ import publicationData from './publication.json';
 import awardsData from './awards.json';
 import studentsData from './students.json';
 import facultyData from './faculty.json';
+import newsData from './news.json';
 
 export function Home(): ReactElement {
   return (
@@ -21,6 +22,15 @@ export function Home(): ReactElement {
       <div className="container news">
         <h4>News</h4>
         <ul>
+          {/* 动态渲染新闻列表 */}
+          {newsData.map((news, index) => (
+            <li key={index}>
+              <b>{news.date}: </b>
+              <span dangerouslySetInnerHTML={{ __html: news.abstract }} />
+            </li>
+          ))}
+        </ul>
+        {/* <ul>
             <li>
                 <b>Feb. 2026: </b> We are seeking motivated PhD students to join our team on efficient machine learning systems in Fall 2026. If you are interested, please contact us for more information.
             </li>
@@ -32,7 +42,7 @@ export function Home(): ReactElement {
                 <b>Jan. 2026: </b> Swift Lab Founded!
             </li>
 
-        </ul>
+        </ul> */}
         {/* React Bootstrap 轮播图 */}
         {/* <h4>News</h4>
         <div className="group" style={{float:'none', width:'100%', margin:'0 auto', display:'flex', justifyContent:'center'}}>
