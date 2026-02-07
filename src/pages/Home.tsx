@@ -1,10 +1,10 @@
 import { ReactElement } from 'react';
 import { Carousel } from 'react-bootstrap';
-import publicationData from './publication.json';
-import awardsData from './awards.json';
-import studentsData from './students.json';
-import facultyData from './faculty.json';
-import newsData from './news.json';
+import publicationData from './json_data/publication.json';
+import awardsData from './json_data/awards.json';
+import studentsData from './json_data/students.json';
+import facultyData from './json_data/faculty.json';
+import newsData from './json_data/news.json';
 
 export function Home(): ReactElement {
   return (

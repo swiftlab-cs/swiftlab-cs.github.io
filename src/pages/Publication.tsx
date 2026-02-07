@@ -7,7 +7,7 @@ import {
   LiteratureAuthor,
 } from 'react-paper-list';
 
-import publicationData from './publication.json';
+import publicationData from './json_data/publication.json';
 
 export function Publication(): ReactElement {
   // 静态构造papers数据

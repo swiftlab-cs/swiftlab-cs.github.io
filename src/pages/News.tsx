@@ -1,7 +1,7 @@
 import { ReactElement } from 'react';
 
 // 导入新闻JSON数据
-import newsData from './news.json';
+import newsData from './json_data/news.json';
 
 export function News(): ReactElement {
   return (

@@ -1,5 +1,5 @@
 import { ReactElement } from 'react';
-import awardsData from './awards.json';
+import awardsData from './json_data/awards.json';
 
 export function Awards(): ReactElement {
   return (
