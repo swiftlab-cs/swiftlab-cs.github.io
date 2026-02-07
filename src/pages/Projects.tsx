@@ -1,4 +1,6 @@
 import { ReactElement } from 'react';
+import projectsData from './project.json';
+
 
 export function Projects(): ReactElement {
   return (
@@ -6,40 +8,11 @@ export function Projects(): ReactElement {
       <div className="container project-content">
         <h4>Funded Research Projects</h4>
         <ul className="project_ul">
-          <li>
-            基于运行时分析的超轻量级虚拟化运行环境性能优化，国家自然科学基金-面上项目，2026-2029
-          </li>
-          <li>
-            基于MCP与强化学习的多智能体根因分析系统，字节横向，2025-2026
-          </li>
-          <li>
-            AI辅助日志分析及诊断技术合作项目，华为横向，2025-2026
-          </li>
-          <li>
-            基于模型架构实现LLM内生安全等能力快速迭代提升，CCF-华为软件工程专项，2025
-          </li>
-          <li>
-            面向大模型生成内容安全的评估与优化技术研究，CCF-华为可信计算专项，2025
-          </li>
-          <li>
-            面向微服务系统的智能日志分析技术研究，广东省自然科学基金面上项目，2024-2026
-          </li>
-          <li>
-            面向研发场景的LLM任务拆解和规划执行能力提升，CCF-华为软件工程专项，2024
-          </li>
-          <li>
-            分离式内存架构下键值存储的I/O效率优化，国家自然科学基金-青年学生基础研究项目（博士研究生）, 2024
-          </li>
-          <li>
-            大前端服务的智能化质量保障体系建设，美团科研合作基金，2022-2026
-          </li>
-          <li>
-            基于研发数据知识图谱的日志异常分析关键技术研究，深圳市高等院校稳定支持计划，2022-2025
-          </li>
-          <li>
-            基于自动化日志分析的大规模软件可靠性工程研究，国家自然科学基金-青年科学基金项目，2022-2024
-          </li>
-
+          {projectsData.map((project, index) => (
+            <li key={index}>
+              {project.title}，{project.description}，{project.date}
+            </li>
+          ))}
         </ul>
       </div>
     </>
