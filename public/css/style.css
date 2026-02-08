@@ -1996,26 +1996,54 @@ p.para{
 	font-weight: bold;
 }
 @media (min-width: 481px) {
+.news li {
+	margin-left: 8em;
+}
+.news li span {
+	margin-left: -8em;
+}
 .news li b {
-	display: inline-block;
-	float: left;
+	display: block;
+	position: relative;
+	left: -8em;
 	width: 8em;
 }
+.news-list li {
+	margin-left: 8em;
+}
+.news-list li span{
+	margin-left: -8em;
+}
 .news-list li b {
-	display: inline-block;
-	float: left;
+	display: block;
+	position: relative;
+	left: -8em;
 	width: 8em;
 }
 }
 @media (max-width: 480px) {
+.news li {
+	margin-left: 6em;
+}
+.news li span {
+	margin-left: -6em;
+}
 .news li b {
-	display: inline-block;
-	float: left;
+	display: block;
+	position: relative;
+	left: -6em;
 	width: 6em;
 }
+.news-list li {
+	margin-left: 6em;
+}
+.news-list li span{
+	margin-left: -6em;
+}
 .news-list li b {
-	display: inline-block;
-	float: left;
+	display: block;
+	position: relative;
+	left: -6em;
 	width: 6em;
 }
 }
