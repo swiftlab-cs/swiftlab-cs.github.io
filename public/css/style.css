@@ -1999,7 +1999,9 @@ p.para{
 .news li {
 	margin-left: 8em;
 }
-
+.news li span {
+	margin-left: -8em;
+}
 .news li b {
 	display: inline-block;
 	position: relative;
@@ -2009,7 +2011,9 @@ p.para{
 .news-list li {
 	margin-left: 8em;
 }
-
+.news li span {
+	margin-left: -8em;
+}
 .news-list li b {
 	display: inline-block;
 	position: relative;
@@ -2021,7 +2025,9 @@ p.para{
 .news li {
 	margin-left: 6em;
 }
-
+.news li span {
+	margin-left: -6em;
+}
 .news li b {
 	display: inline-block;
 	position: relative;
@@ -2031,7 +2037,9 @@ p.para{
 .news-list li {
 	margin-left: 6em;
 }
-
+.news li span {
+	margin-left: -6em;
+}
 .news-list li b {
 	display: inline-block;
 	position: relative;
