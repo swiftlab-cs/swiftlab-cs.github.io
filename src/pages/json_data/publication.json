@@ -1,5 +1,25 @@
 [  
   {
+    "title": "EdgeFlow: Fast Cold Starts for LLMs on Mobile Devices",
+    "date": "2026",
+    "authors":[
+      "Yongsheng Yan",
+      "Jiacheng Shen",
+      "Xuchuan Luo",
+      "Yangfan Zhou"
+    ],
+    "venue": "Arxiv preprint",
+    "venueShort": "ARXIV",
+    "tags": [],
+    "abstract": "Deploying large language models (LLMs) on mobile devices is an emerging trend to enable data privacy and offline accessibility of LLM applications. Modern mobile neural processing units (NPUs) make such deployment increasingly feasible. However, existing mobile LLM inference frameworks suffer from high start-up latency due to their inevitable cold starts, i.e., launching LLM inferences when the model is not hosted in device memory. In this paper, we identify the key bottleneck of mobile LLM cold starts as the waste of flash bandwidth on unimportant model parameters. We design EdgeFlow, a mobile LLM inference framework that mitigates the cold start issue by adaptively adjusting the precisions of LLM parameters. Specifically, EdgeFlow leverages 1) an NPU-aware adaptive quantization algorithm that assigns different precisions to weights in a finer granularity according to their importance and NPU constraints, 2) an SIMD-friendly packing format that accelerates the transformation of various-precision weights into fixed-sized NPU-native data types, and 3) a synergistic granular pipeline that coordinates CPU and NPU computation in a fine-grained and dynamic manner. Experimental results show that EdgeFlow reduces cold-start latency by up to 4.07x compared with three state-of-the-art mobile LLM inference frameworks, i.e., llama.cpp, MNN, and this llm.npu, under comparable model accuracy.",
+    "projectUrl": null,
+    "paperUrl": "https://arxiv.org/abs/2604.09083",
+    "slidesUrl": null,
+    "bibtex": "",
+    "arxivUrl": "https://arxiv.org/abs/2604.09083",
+    "awards": []
+  },
+  {
     "title": "The Pensieve Paradigm: Stateful Language Models with Learned Memory Management",
     "date": "2026",
     "authors": [
