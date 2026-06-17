@@ -22,12 +22,10 @@ export function People(): ReactElement {
 
           {faculty.map(renderPerson)}
 
-
           {/*  Students  */}
 
           <div className="clearfix"> </div>
           <h2>Students</h2>
-
 
           {students.map(renderPerson)}
 
@@ -50,8 +48,6 @@ export function People(): ReactElement {
             </h3>
             <p>占位</p>
           </div> */}
-
-          
 
           <div className="clearfix"> </div>
         </div>

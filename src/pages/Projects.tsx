@@ -1,7 +1,6 @@
 import { ReactElement } from 'react';
 import projectsData from './json_data/project.json';
 
-
 export function Projects(): ReactElement {
   return (
     <>

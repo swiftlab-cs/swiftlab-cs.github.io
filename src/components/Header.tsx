@@ -16,10 +16,11 @@ export function Header(): ReactElement {
   const toggleMenu = () => {
     const nav1 = document.getElementById('nav1');
     const menuButton = document.querySelector('.menu');
-    
+
     // Check if menu button is visible (mobile view)
-    const isMobileView = menuButton && window.getComputedStyle(menuButton).display !== 'none';
-    
+    const isMobileView =
+      menuButton && window.getComputedStyle(menuButton).display !== 'none';
+
     if (nav1 && isMobileView) {
       if (nav1.style.display === 'block') {
         nav1.style.display = 'none';
@@ -28,7 +29,6 @@ export function Header(): ReactElement {
       }
     }
   };
-
 
   // 下滑则header变成header.scroll
   // 顶部则transprant的header
@@ -54,10 +54,9 @@ export function Header(): ReactElement {
     };
   }, []);
 
-
   // 1. 添加路由状态
   const [currentPath, setCurrentPath] = useState<string>(
-    `${window.location.pathname}${window.location.hash}`
+    `${window.location.pathname}${window.location.hash}`,
   );
 
   // 2. 监听哈希变化
@@ -65,7 +64,7 @@ export function Header(): ReactElement {
     const handleHashChange = () => {
       setCurrentPath(`${window.location.pathname}${window.location.hash}`);
     };
-    
+
     window.addEventListener('hashchange', handleHashChange);
     return () => window.removeEventListener('hashchange', handleHashChange);
   }, []);
@@ -74,7 +73,16 @@ export function Header(): ReactElement {
 
   return (
     <>
-      <div className="header" style={{ backgroundColor: isHome ? (scrolled ? '#303952' : 'transparent') : '#303952' }}>
+      <div
+        className="header"
+        style={{
+          backgroundColor: isHome
+            ? scrolled
+              ? '#303952'
+              : 'transparent'
+            : '#303952',
+        }}
+      >
         <div className="container">
           <div className="header-part">
             <div className="head-logo">
@@ -90,27 +98,39 @@ export function Header(): ReactElement {
                 <li>
                   {/* 确保点击后自动收起菜单 */}
                   {/* <a href="/">Home</a>  */}
-                  <a href="/" onClick={toggleMenu}>Home</a> 
+                  <a href="/" onClick={toggleMenu}>
+                    Home
+                  </a>
                 </li>
                 <li>
                   {/* <a href="#/news">News</a> */}
-                  <a href="#/news" onClick={toggleMenu}>News</a>
+                  <a href="#/news" onClick={toggleMenu}>
+                    News
+                  </a>
                 </li>
                 <li>
                   {/* <a href="#/projects">Projects</a> */}
-                  <a href="#/projects" onClick={toggleMenu}>Projects</a>
+                  <a href="#/projects" onClick={toggleMenu}>
+                    Projects
+                  </a>
                 </li>
                 <li>
                   {/* <a href="#/publication">Publication</a> */}
-                  <a href="#/publication" onClick={toggleMenu}>Publications</a>
+                  <a href="#/publication" onClick={toggleMenu}>
+                    Publications
+                  </a>
                 </li>
                 <li>
                   {/* <a href="#/people">People</a> */}
-                  <a href="#/people" onClick={toggleMenu}>People</a>
+                  <a href="#/people" onClick={toggleMenu}>
+                    People
+                  </a>
                 </li>
                 <li>
                   {/* <a href="#/awards">Awards</a> */}
-                  <a href="#/awards" onClick={toggleMenu}>Awards</a>
+                  <a href="#/awards" onClick={toggleMenu}>
+                    Awards
+                  </a>
                 </li>
               </ul>
             </div>

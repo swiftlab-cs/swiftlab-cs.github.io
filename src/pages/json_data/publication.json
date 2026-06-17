@@ -2,7 +2,7 @@
   {
     "title": "CIDER: Boosting Memory-Disaggregated Key-Value Stores with Pessimistic Synchronization",
     "date": "2026",
-    "authors":[
+    "authors": [
       "Yuxuan Du",
       "Xuchuan Luo",
       "Xin Wang",
@@ -23,7 +23,7 @@
   {
     "title": "EdgeFlow: Fast Cold Starts for LLMs on Mobile Devices",
     "date": "2026",
-    "authors":[
+    "authors": [
       "Yongsheng Yan",
       "Jiacheng Shen",
       "Xuchuan Luo",
@@ -141,12 +141,7 @@
   {
     "title": "Aligning the Objective of LLM-Based Program Repair",
     "date": "2025",
-    "authors": [
-      "Junjielong Xu",
-      "Ying Fu",
-      "Shin Hwei Tan",
-      "Pinjia He"
-    ],
+    "authors": ["Junjielong Xu", "Ying Fu", "Shin Hwei Tan", "Pinjia He"],
     "venue": "47th IEEE/ACM International Conference on Software Engineering, ICSE 2025, Ottawa, ON, Canada, April 26 - May 6, 2025",
     "venueShort": "ICSE",
     "tags": [],
@@ -207,12 +202,7 @@
   {
     "title": "UTBoost: Rigorous Evaluation of Coding Agents on SWE-Bench",
     "date": "2025",
-    "authors": [
-      "Boxi Yu",
-      "Yuxuan Zhu",
-      "Pinjia He",
-      "Daniel Kang"
-    ],
+    "authors": ["Boxi Yu", "Yuxuan Zhu", "Pinjia He", "Daniel Kang"],
     "venue": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), ACL 2025, Vienna, Austria, July 27 - August 1, 2025",
     "venueShort": "ACL",
     "tags": [],
@@ -586,11 +576,7 @@
   {
     "title": "Testing Machine Translation via Referential Transparency",
     "date": "2021",
-    "authors": [
-      "Pinjia He",
-      "Clara Meister",
-      "Zhendong Su"
-    ],
+    "authors": ["Pinjia He", "Clara Meister", "Zhendong Su"],
     "venue": "43rd IEEE/ACM International Conference on Software Engineering, ICSE 2021, Madrid, Spain, 22-30 May 2021",
     "venueShort": "ICSE",
     "tags": [],
@@ -605,11 +591,7 @@
   {
     "title": "Structure-invariant testing for machine translation",
     "date": "2020",
-    "authors": [
-      "Pinjia He",
-      "Clara Meister",
-      "Zhendong Su"
-    ],
+    "authors": ["Pinjia He", "Clara Meister", "Zhendong Su"],
     "venue": "ICSE '20: 42nd International Conference on Software Engineering, Seoul, South Korea, 27 June - 19 July, 2020",
     "venueShort": "ICSE",
     "tags": [],
@@ -624,12 +606,7 @@
   {
     "title": "Drain: An Online Log Parsing Approach with Fixed Depth Tree",
     "date": "2017",
-    "authors": [
-      "Pinjia He",
-      "Jieming Zhu",
-      "Zibin Zheng",
-      "Michael R. Lyu"
-    ],
+    "authors": ["Pinjia He", "Jieming Zhu", "Zibin Zheng", "Michael R. Lyu"],
     "venue": "2017 IEEE International Conference on Web Services, ICWS 2017, Honolulu, HI, USA, June 25-30, 2017",
     "venueShort": "ICWS",
     "tags": [],
@@ -644,12 +621,7 @@
   {
     "title": "Experience Report: System Log Analysis for Anomaly Detection",
     "date": "2016",
-    "authors": [
-      "Shilin He",
-      "Jieming Zhu",
-      "Pinjia He",
-      "Michael R. Lyu"
-    ],
+    "authors": ["Shilin He", "Jieming Zhu", "Pinjia He", "Michael R. Lyu"],
     "venue": "27th IEEE International Symposium on Software Reliability Engineering, ISSRE 2016, Ottawa, ON, Canada, October 23-27, 2016",
     "venueShort": "ISSRE",
     "tags": [],

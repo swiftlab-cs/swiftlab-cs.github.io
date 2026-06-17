@@ -13,12 +13,16 @@ export function Home(): ReactElement {
         <div className="container">
           <div className="banner-info">
             <h2 style={{ color: '#c7c6c5' }}>Swift Lab</h2>
-            <p style={{ color: '#c7c6c5' }}><strong>S</strong>oft<strong>W</strong>are <strong>I</strong>ntelligence and <strong>F</strong>oundational sys<strong>T</strong>ems Lab</p>
+            <p style={{ color: '#c7c6c5' }}>
+              <strong>S</strong>oft<strong>W</strong>are <strong>I</strong>
+              ntelligence and <strong>F</strong>oundational sys
+              <strong>T</strong>ems Lab
+            </p>
           </div>
         </div>
       </div>
 
-        {/* News部分 */}
+      {/* News部分 */}
       <div className="container news">
         <h4>News</h4>
         <ul>
@@ -116,48 +120,107 @@ export function Home(): ReactElement {
             </Carousel>
           </div>
           <div className="group-text">
-            <h3><b>Swift Lab</b></h3>
+            <h3>
+              <b>Swift Lab</b>
+            </h3>
             <p>
-              <p style={{fontSize: '1.0em', lineHeight: '1.6', marginBottom: '1.5em' }}>
-              <b>Swift</b> (<b>S</b>oft<b>W</b>are <b>I</b>ntelligence and <b>F</b>oundational
-              sys<b>T</b>ems) Lab is a joint lab between CUHK-Shenzhen, Duke Kunshan University, and Fudan University. The lab is led by Prof.{' '} 
-              <a href="https://pinjiahe.github.io/">Pinjia He</a>, Prof.{' '}
-              <a href="https://bernardshen.github.io/">Jiacheng Shen</a>, and Prof.{' '}
-              <a href="https://www.y-droid.com/">Yangfan Zhou</a>. Our goal is to bring intelligence into software development and making intelligent systems more available to everyone. The followings are the two main research areas at Swift Lab: 
+              <p
+                style={{
+                  fontSize: '1.0em',
+                  lineHeight: '1.6',
+                  marginBottom: '1.5em',
+                }}
+              >
+                <b>Swift</b> (<b>S</b>oft<b>W</b>are <b>I</b>ntelligence and{' '}
+                <b>F</b>oundational sys<b>T</b>ems) Lab is a joint lab between
+                CUHK-Shenzhen, Duke Kunshan University, and Fudan University.
+                The lab is led by Prof.{' '}
+                <a href="https://pinjiahe.github.io/">Pinjia He</a>, Prof.{' '}
+                <a href="https://bernardshen.github.io/">Jiacheng Shen</a>, and
+                Prof. <a href="https://www.y-droid.com/">Yangfan Zhou</a>. Our
+                goal is to bring intelligence into software development and
+                making intelligent systems more available to everyone. The
+                followings are the two main research areas at Swift Lab:
               </p>
 
-              <ul style={{fontSize: '1.1em', listStyle: 'none', paddingLeft: '0px' }}>
-                  <li style={{ position: 'relative', paddingLeft: '20px' }}>
-                      <span style={{ position: 'absolute', left: '0', color: '#17c0eb' }}>•</span>
-                      <div>Al4SE (Artificial Intelligence for Software Engineering)</div>
-                  </li>
-                  <li style={{ position: 'relative', paddingLeft: '20px' }}>
-                      <span style={{ position: 'absolute', left: '0', color: '#17c0eb' }}>•</span>
-                      <div>Sys4ML (Systems for Machine Learning)</div>
-                  </li>
-              </ul>  
-            
+              <ul
+                style={{
+                  fontSize: '1.1em',
+                  listStyle: 'none',
+                  paddingLeft: '0px',
+                }}
+              >
+                <li style={{ position: 'relative', paddingLeft: '20px' }}>
+                  <span
+                    style={{
+                      position: 'absolute',
+                      left: '0',
+                      color: '#17c0eb',
+                    }}
+                  >
+                    •
+                  </span>
+                  <div>
+                    Al4SE (Artificial Intelligence for Software Engineering)
+                  </div>
+                </li>
+                <li style={{ position: 'relative', paddingLeft: '20px' }}>
+                  <span
+                    style={{
+                      position: 'absolute',
+                      left: '0',
+                      color: '#17c0eb',
+                    }}
+                  >
+                    •
+                  </span>
+                  <div>Sys4ML (Systems for Machine Learning)</div>
+                </li>
+              </ul>
             </p>
-              {/* 显示动态统计信息 */}
+            {/* 显示动态统计信息 */}
             <div style={{ paddingTop: '15px', borderRadius: '8px' }}>
               <div style={{ display: 'flex', gap: '30px', flexWrap: 'wrap' }}>
                 <div>
-                  <span style={{ fontSize: '2.0em', fontWeight: 'bold', color: '#17c0eb' }}>{publicationData.length}</span>
+                  <span
+                    style={{
+                      fontSize: '2.0em',
+                      fontWeight: 'bold',
+                      color: '#17c0eb',
+                    }}
+                  >
+                    {publicationData.length}
+                  </span>
                   <span style={{ marginLeft: '8px' }}>Papers</span>
                 </div>
 
                 <div>
-                  <span style={{ fontSize: '2.0em', fontWeight: 'bold', color: '#17c0eb' }}>{awardsData.length}</span>
+                  <span
+                    style={{
+                      fontSize: '2.0em',
+                      fontWeight: 'bold',
+                      color: '#17c0eb',
+                    }}
+                  >
+                    {awardsData.length}
+                  </span>
                   <span style={{ marginLeft: '8px' }}>Awards</span>
                 </div>
 
                 <div>
-                  <span style={{ fontSize: '2.0em', fontWeight: 'bold', color: '#17c0eb' }}>{facultyData.length + studentsData.length}</span>
+                  <span
+                    style={{
+                      fontSize: '2.0em',
+                      fontWeight: 'bold',
+                      color: '#17c0eb',
+                    }}
+                  >
+                    {facultyData.length + studentsData.length}
+                  </span>
                   <span style={{ marginLeft: '8px' }}>Members</span>
                 </div>
               </div>
             </div>
-            
           </div>
           <div className="clearfix"> </div>
         </div>
