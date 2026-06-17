@@ -1,4 +1,24 @@
-[  
+[
+  {
+    "title": "CIDER: Boosting Memory-Disaggregated Key-Value Stores with Pessimistic Synchronization",
+    "date": "2026",
+    "authors":[
+      "Yuxuan Du",
+      "Xuchuan Luo",
+      "Xin Wang",
+      "Yangfan Zhou",
+      "Jiacheng Shen"
+    ],
+    "venue": "The 52nd International Conference on Very Large Data Bases",
+    "venueShort": "VLDB",
+    "abstract": "Memory-disaggregated key-value (KV) stores suffer from a severe performance bottleneck due to their I/O redundancy issues. A huge amount of redundant I/Os are generated when synchronizing concurrent data accesses, making the limited network between the compute and memory pools of DM a performance bottleneck. We identify the root cause for the redundant I/O lies in the mismatch between the optimistic synchronization of existing memory-disaggregated KV stores and the highly concurrent workloads on DM. In this paper, we propose to boost memory-disaggregated KV stores with pessimistic synchronization. We propose CIDER, a compute-side I/O optimization framework, to verify our idea. CIDER adopts a global write-combining technique to further reduce cross-node redundant I/Os. A contention-aware synchronization scheme is designed to improve the performance of pessimistic synchronization under low contention scenarios. Experimental results show that CIDER effectively improves the throughput of state-of-the-art memory-disaggregated KV stores by up to 6.6× under the YCSB benchmark.",
+    "projectUrl": "https://github.com/dmemsys/CIDER",
+    "paperUrl": "https://arxiv.org/abs/2604.03007",
+    "slidesUrl": null,
+    "bibtex": "",
+    "arxivUrl": "https://arxiv.org/abs/2604.03007",
+    "awards": []
+  },
   {
     "title": "EdgeFlow: Fast Cold Starts for LLMs on Mobile Devices",
     "date": "2026",
