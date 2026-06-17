@@ -1,7 +1,7 @@
 # This is a basic workflow to do the last time check before release, i.e., merge to main branch
 
-# Simple workflow for deploying static content to GitHub Pages
-name: Deploy Preview to GitHub Pages
+# Builds the React app and deploys it to the production GitHub Pages site
+name: Deploy to GitHub Pages
 
 on:
   # Runs on pushes targeting the release branch
@@ -17,16 +17,16 @@ permissions:
   pages: write
   id-token: write
 
-# Allow one concurrent deployment
+# Allow one concurrent deployment; do not cancel an in-progress production deploy
 concurrency:
-  group: 'preview'
-  cancel-in-progress: true
+  group: 'pages'
+  cancel-in-progress: false
 
 jobs:
   # Single deploy job since we're just deploying
   deploy:
     environment:
-      name: Preview
+      name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
@@ -61,5 +61,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-        with:
-          preview: true
