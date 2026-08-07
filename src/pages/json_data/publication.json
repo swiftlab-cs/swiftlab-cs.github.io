@@ -23,12 +23,7 @@
   {
     "title": "SmartGen: Seamless Disaggregated LLM Inference with Selective KV Cache Transfer",
     "date": "2026",
-    "authors": [
-      "Xuchuan Luo",
-      "Jiacheng Shen",
-      "Xin Wang",
-      "Yangfan Zhou"
-    ],
+    "authors": ["Xuchuan Luo", "Jiacheng Shen", "Xin Wang", "Yangfan Zhou"],
     "venue": "arXiv preprint",
     "venueShort": "ARXIV",
     "tags": [],
